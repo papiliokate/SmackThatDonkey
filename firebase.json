@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "smack-that",
+    "site": "smack-that-donkey",
     "public": "dist",
     "ignore": [
       "firebase.json",

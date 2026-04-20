@@ -476,7 +476,7 @@ dom.btnInstall.addEventListener('click', () => {
 });
 
 dom.btnShare.addEventListener('click', () => {
-    const text = `🫏 Smack That... \nPuzzle #${state.currentPuzzleIndex + 1} in ${dom.timerContainer.textContent}!\n\nPlay free at smack-that.web.app`;
+    const text = `🫏 Smack That... \nPuzzle #${state.currentPuzzleIndex + 1} in ${dom.timerContainer.textContent}!\n\nPlay free at smack-that-donkey.web.app`;
     
     if (navigator.share) {
         navigator.share({ title: 'Smack That...', text: text }).then(() => {

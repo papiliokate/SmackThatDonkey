@@ -395,8 +395,19 @@ function loadBingePuzzle() {
         updateBingeUI();
      }
      
-     state.question = "Bonus Binge Puzzle!";
-     state.answer = ["SUPER", "GENIUS", "MASTER"][Math.floor(Math.random() * 3)];
+     const bonusPool = [
+         { q: "A highly intelligent person?", a: "GENIUS" },
+         { q: "Someone in charge or highly skilled?", a: "MASTER" },
+         { q: "Excellent or outstanding?", a: "SUPER" },
+         { q: "A round glowing object in the night sky?", a: "MOON" },
+         { q: "To propel oneself upward?", a: "JUMP" },
+         { q: "The color of an apple or fire engine?", a: "RED" },
+         { q: "A four-legged farm animal offering milk?", a: "COW" }
+     ];
+     const selected = bonusPool[Math.floor(Math.random() * bonusPool.length)];
+
+     state.question = `Binge: ${selected.q}`;
+     state.answer = selected.a;
      state.letters = state.answer.split('');
      const shuffledLetters = [...state.letters].sort(() => Math.random() - 0.5);
      dom.trivia.textContent = state.question;

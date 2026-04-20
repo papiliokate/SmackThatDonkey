@@ -1,0 +1,588 @@
+import confetti from 'canvas-confetti';
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
+
+let analytics;
+if (import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
+  try {
+    const firebaseConfig = {
+      apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+      authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+      projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+      storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+      messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+      appId: import.meta.env.VITE_FIREBASE_APP_ID,
+      measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+    };
+    const app = initializeApp(firebaseConfig);
+    analytics = getAnalytics(app);
+    logEvent(analytics, 'session_start');
+  } catch (e) {
+    console.warn("Analytics error:", e);
+  }
+}
+
+let bingeCount = parseInt(localStorage.getItem("bingeTokens") || "0");
+
+// Audio Framework (Ready for MP3 drops)
+const audio = {
+    donkey: new Audio('/audio/donkey.ogg'),
+    whoop: new Audio('/audio/whoop.wav'),
+    applause: new Audio('/audio/applause.mp3'),
+    barnyard: new Audio('/audio/barnyard.wav'),
+    smack: new Audio('/audio/smack.wav')
+};
+audio.whoop.loop = true;
+audio.barnyard.loop = true;
+
+const playAudio = (audioNode) => {
+    if (!audioNode) return;
+    audioNode.currentTime = 0;
+    const playPromise = audioNode.play();
+    if (playPromise !== undefined) {
+        playPromise.catch(e => console.warn('Audio playback prevented or missing file:', e));
+    }
+};
+
+const stopAudio = (audioNode) => {
+    if (!audioNode) return;
+    audioNode.pause();
+    audioNode.currentTime = 0;
+};
+
+// Hard Canvas Rescale Engine
+function rescaleGame() {
+    const container = document.getElementById('game-container');
+    if (!container) return;
+    
+    // Base logical resolution
+    const TARGET_WIDTH = 450;
+    const TARGET_HEIGHT = 850;
+    
+    const windowX = window.innerWidth;
+    const windowY = window.innerHeight;
+    
+    // Calculate uniform max scalar
+    let scale = Math.min(windowX / TARGET_WIDTH, windowY / TARGET_HEIGHT);
+    if (scale > 1.2) scale = 1.2; // Max cap to prevent blurry explosion
+    
+    container.style.transform = `scale(${scale})`;
+}
+window.addEventListener('resize', rescaleGame);
+window.addEventListener('load', rescaleGame);
+rescaleGame();
+
+// State
+let state = {
+    phase: 1, // 1: Discovery, 2: Smack Down
+    currentPuzzleIndex: 0,
+    dailyPuzzles: [],
+    question: "",
+    answer: "",
+    letters: [],
+    selectedLetters: [],
+    startTime: 0,
+    timerInterval: null,
+    lossToastTimeout: null
+};
+
+// Elements
+const dom = {
+    board: document.getElementById('game-board'),
+    hayBales: document.getElementById('hay-bales'),
+    trivia: document.getElementById('trivia-question'),
+    smackBtn: document.getElementById('smack-down-btn'),
+    timerContainer: document.getElementById('timer-container'),
+    lossToast: document.getElementById('loss-toast'),
+    winModal: document.getElementById('win-modal'),
+    winTime: document.getElementById('win-time'),
+    btnNextPuzzle: document.getElementById('btn-next-puzzle'),
+    btnRestart: document.getElementById('btn-restart'),
+    btnShare: document.getElementById('btn-share'),
+    btnInstall: document.getElementById('btn-install'),
+    btnBinge: document.getElementById('btn-binge'),
+    btnHub: document.getElementById('btn-hub'),
+    btnTopReset: document.getElementById('btn-top-reset'),
+    btnTutorial: document.getElementById('btn-tutorial'),
+    btnCloseTutorial: document.getElementById('btn-close-tutorial'),
+    tutorialModal: document.getElementById('tutorial-modal'),
+    btnBingePlay: document.getElementById('btn-binge-play'),
+    bingeCountText: document.getElementById('binge-count')
+};
+
+function updateBingeUI() {
+    if (bingeCount > 0) {
+        dom.btnBingePlay.classList.remove('hidden');
+        dom.bingeCountText.textContent = bingeCount;
+    } else {
+        dom.btnBingePlay.classList.add('hidden');
+    }
+}
+updateBingeUI();
+
+// Auto-play logic handling
+const urlParams = new URLSearchParams(window.location.search);
+const autoplay = urlParams.get('autoplay');
+
+async function initGame() {
+    try {
+        const response = await fetch('/daily_puzzle.json');
+        if (!response.ok) throw new Error("HTTP error " + response.status);
+        const data = await response.json();
+        state.dailyPuzzles = data.puzzles;
+    } catch (e) {
+        console.warn("Failed to load daily_puzzle.json, falling back:", e);
+        state.dailyPuzzles = [
+             {q: "What is the bright green color of an emerald?", a: "GREEN"},
+             {q: "What curved yellow fruit is famously loved by monkeys?", a: "BANANA"},
+             {q: "What massive grey animal has large ears and a long trunk?", a: "ELEPHANT"}
+        ];
+    }
+    
+    if (state.currentPuzzleIndex >= state.dailyPuzzles.length) {
+        state.currentPuzzleIndex = 0;
+    }
+    
+    const currentData = state.dailyPuzzles[state.currentPuzzleIndex];
+    state.question = `Daily Puzzle ${state.currentPuzzleIndex + 1}: ${currentData.q}`;
+    state.answer = currentData.a;
+
+    // Basic setup for exact letters
+    state.letters = state.answer.split('');
+    const shuffledLetters = [...state.letters].sort(() => Math.random() - 0.5);
+    
+    dom.trivia.textContent = state.question;
+    dom.board.innerHTML = '';
+    dom.hayBales.innerHTML = '';
+    
+    // Dynamically adjust internal DOM footprint sizes to prevent wrap overflow on massive puzzles
+    const doc = document.documentElement;
+    if (state.letters.length === 6) {
+        doc.style.setProperty('--donkey-width', '110px');
+        doc.style.setProperty('--donkey-height', '132px');
+        doc.style.setProperty('--bale-size', '55px');
+    } else if (state.letters.length >= 8) {
+        doc.style.setProperty('--donkey-width', '90px');
+        doc.style.setProperty('--donkey-height', '108px');
+        doc.style.setProperty('--bale-size', '45px');
+    } else {
+        doc.style.setProperty('--donkey-width', '140px');
+        doc.style.setProperty('--donkey-height', '168px');
+        doc.style.setProperty('--bale-size', '70px');
+    }
+    
+    // Create Donkeys
+    shuffledLetters.forEach((letter, index) => {
+        const donkey = document.createElement('div');
+        donkey.className = 'donkey';
+        donkey.dataset.letter = letter;
+        donkey.dataset.index = index;
+        
+        const letterSpan = document.createElement('span');
+        letterSpan.className = 'letter';
+        letterSpan.textContent = letter;
+        
+        donkey.appendChild(letterSpan);
+        
+        donkey.addEventListener('click', (e) => handleDonkeyClick(e, donkey, letter));
+        dom.board.appendChild(donkey);
+    });
+
+    // Create empty hay bales
+    state.letters.forEach(() => {
+        const bale = document.createElement('div');
+        bale.className = 'hay-bale';
+        dom.hayBales.appendChild(bale);
+    });
+
+    // Reset phase 1
+    setToPhase1();
+}
+
+function handleDonkeyClick(e, element, letter) {
+    if (element.classList.contains('selected')) return;
+
+    playAudio(audio.smack);
+    playAudio(audio.donkey);
+
+    // Visual Smack Reaction
+    element.classList.remove('smacked');
+    void element.offsetWidth; // trigger reflow
+    element.classList.add('smacked');
+    
+    // Particles
+    const rect = element.getBoundingClientRect();
+    const x = (rect.left + rect.width / 2) / window.innerWidth;
+    const y = (rect.top + rect.height / 2) / window.innerHeight;
+    
+    confetti({
+        particleCount: 20,
+        spread: 60,
+        origin: { x, y },
+        colors: ['#fff', '#ffd166', '#c34b4b'],
+        disableForReducedMotion: true,
+        zIndex: 100
+    });
+
+    if (state.phase === 1) {
+        // Discovery: Pop letter then hide
+        element.classList.add('revealed');
+        setTimeout(() => {
+            if(state.phase === 1) element.classList.remove('revealed');
+        }, 1200);
+    } else if (state.phase === 2) {
+        // Smack Down: Select letter
+        element.classList.add('selected');
+        state.selectedLetters.push(letter);
+        updateHayBales();
+        checkProgress(element);
+    }
+}
+
+function updateHayBales() {
+    const bales = dom.hayBales.querySelectorAll('.hay-bale');
+    bales.forEach((bale, i) => {
+        if (state.selectedLetters[i]) {
+            bale.textContent = state.selectedLetters[i];
+        } else {
+            bale.textContent = '';
+        }
+    });
+}
+
+function checkProgress(element) {
+    const currentIndex = state.selectedLetters.length - 1;
+    
+    // Check if the current letter matches the intended answer's letter at the same position
+    if (state.selectedLetters[currentIndex] !== state.letters[currentIndex]) {
+        // Wrong letter picked - play error animation and pop the letter, but NO loss state.
+        state.selectedLetters.pop();
+        
+        // Remove 'selected' from the exact element we just clicked, bypassing DOM ordering issues
+        if (element) {
+            element.classList.remove('selected');
+        }
+        
+        // Show visual error
+        dom.lossToast.textContent = "Oops! Not that one!";
+        dom.lossToast.classList.add('show');
+        clearTimeout(state.lossToastTimeout);
+        state.lossToastTimeout = setTimeout(() => dom.lossToast.classList.remove('show'), 1000);
+        
+        updateHayBales();
+        return;
+    }
+    
+    // Win condition - all spelling correct
+    if (state.selectedLetters.length === state.answer.length) {
+        winGame();
+    }
+}
+
+function setToPhase1() {
+    state.phase = 1;
+    state.selectedLetters = [];
+    clearInterval(state.timerInterval);
+    
+    stopAudio(audio.whoop);
+    stopAudio(audio.applause);
+    playAudio(audio.barnyard);
+    
+    dom.smackBtn.style.visibility = 'visible';
+    dom.timerContainer.classList.remove('active');
+    dom.timerContainer.textContent = '00:00.00';
+    
+    // Reset Donkeys
+    dom.board.querySelectorAll('.donkey').forEach(d => {
+        d.classList.remove('selected', 'revealed');
+    });
+    
+    updateHayBales();
+}
+
+function setToPhase2() {
+    state.phase = 2;
+    state.selectedLetters = [];
+    updateHayBales();
+    
+    stopAudio(audio.barnyard);
+    playAudio(audio.whoop);
+    
+    dom.smackBtn.style.visibility = 'hidden';
+    dom.timerContainer.classList.add('active');
+    
+    dom.board.querySelectorAll('.donkey').forEach(d => {
+        d.classList.remove('revealed', 'selected');
+    });
+
+    startTimer();
+}
+
+function showLoss() {
+    clearInterval(state.timerInterval);
+    dom.lossToast.classList.add('show');
+    
+    setTimeout(() => {
+        dom.lossToast.classList.remove('show');
+        setToPhase1();
+    }, 2500);
+}
+
+function winGame() {
+    clearInterval(state.timerInterval);
+    stopAudio(audio.whoop);
+    playAudio(audio.applause);
+    const finalTime = dom.timerContainer.textContent;
+    
+    confetti({
+        particleCount: 150,
+        spread: 100,
+        origin: { y: 0.3 }
+    });
+    
+    dom.winTime.textContent = `Time: ${finalTime}`;
+    
+    // Evaluate Progress Context
+    const isFinalPuzzle = state.currentPuzzleIndex >= (state.dailyPuzzles.length - 1);
+    
+    if (analytics) logEvent(analytics, 'level_complete', { level: state.currentPuzzleIndex + 1 });
+
+    if (isFinalPuzzle && bingeCount === 0) {
+        dom.btnNextPuzzle.style.display = 'none';
+        dom.btnInstall.style.display = 'flex';
+        dom.btnBinge.style.display = 'flex';
+        dom.btnRestart.style.display = 'flex';
+        dom.btnShare.style.display = 'flex';
+        dom.btnHub.style.display = 'flex';
+    } else {
+        dom.btnNextPuzzle.style.display = 'flex';
+        dom.btnShare.style.display = 'flex';
+        dom.btnHub.style.display = 'flex';
+        dom.btnInstall.style.display = 'none';
+        dom.btnBinge.style.display = 'none';
+        dom.btnRestart.style.display = 'none';
+    }
+    
+    setTimeout(() => {
+        dom.winModal.classList.add('active');
+        if(autoplay) {
+            window._VIDEO_RECORDING_DONE = true;
+        }
+    }, 1000);
+}
+
+function startTimer() {
+    state.startTime = Date.now();
+    state.timerInterval = setInterval(() => {
+        const deltaMs = Date.now() - state.startTime;
+        const m = Math.floor(deltaMs / 60000).toString().padStart(2, '0');
+        const s = Math.floor((deltaMs % 60000) / 1000).toString().padStart(2, '0');
+        const ms = Math.floor((deltaMs % 1000) / 10).toString().padStart(2, '0');
+        dom.timerContainer.textContent = `${m}:${s}.${ms}`;
+    }, 10);
+}
+
+// Event Listeners
+dom.smackBtn.addEventListener('click', setToPhase2);
+dom.btnTopReset.addEventListener('click', setToPhase1);
+dom.btnTutorial.addEventListener('click', () => dom.tutorialModal.classList.add('active'));
+dom.btnCloseTutorial.addEventListener('click', () => dom.tutorialModal.classList.remove('active'));
+
+function loadBingePuzzle() {
+     if (bingeCount > 0) {
+        bingeCount--;
+        localStorage.setItem("bingeTokens", bingeCount);
+        updateBingeUI();
+     }
+     
+     state.question = "Bonus Binge Puzzle!";
+     state.answer = ["SUPER", "GENIUS", "MASTER"][Math.floor(Math.random() * 3)];
+     state.letters = state.answer.split('');
+     const shuffledLetters = [...state.letters].sort(() => Math.random() - 0.5);
+     dom.trivia.textContent = state.question;
+     dom.board.innerHTML = '';
+     dom.hayBales.innerHTML = '';
+     
+     shuffledLetters.forEach((letter, index) => {
+         const donkey = document.createElement('div');
+         donkey.className = 'donkey';
+         donkey.dataset.letter = letter;
+         donkey.dataset.index = index;
+         const letterSpan = document.createElement('span');
+         letterSpan.className = 'letter';
+         letterSpan.textContent = letter;
+         donkey.appendChild(letterSpan);
+         donkey.addEventListener('click', (e) => handleDonkeyClick(e, donkey, letter));
+         dom.board.appendChild(donkey);
+     });
+     state.letters.forEach(() => {
+         const bale = document.createElement('div');
+         bale.className = 'hay-bale';
+         dom.hayBales.appendChild(bale);
+     });
+     
+     dom.winModal.classList.remove('active');
+     setToPhase1();
+}
+
+dom.btnNextPuzzle.addEventListener('click', () => {
+    if (state.currentPuzzleIndex >= (state.dailyPuzzles.length - 1)) {
+        if (bingeCount > 0) {
+            loadBingePuzzle();
+            return;
+        }
+    }
+    state.currentPuzzleIndex++;
+    dom.winModal.classList.remove('active');
+    initGame();
+});
+
+dom.btnRestart.addEventListener('click', () => {
+    dom.winModal.classList.remove('active');
+    setToPhase1();
+});
+
+dom.btnBingePlay.addEventListener('click', () => {
+    if (bingeCount > 0) {
+        loadBingePuzzle();
+    }
+});
+
+dom.btnBinge.addEventListener('click', () => {
+    if (analytics) logEvent(analytics, 'binge_presale_click');
+    window.location.href = '/presale.html';
+});
+
+dom.btnHub.addEventListener('click', () => {
+    if (analytics) logEvent(analytics, 'hub_clicked');
+});
+
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+});
+
+dom.btnInstall.addEventListener('click', () => {
+    if (analytics) logEvent(analytics, 'install_prompt_clicked');
+    if (deferredPrompt) {
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then(() => {
+            deferredPrompt = null;
+        });
+    } else {
+        alert("App is already installed or not supported on this browser.");
+    }
+});
+
+dom.btnShare.addEventListener('click', () => {
+    const text = `🫏 Smack That... \nPuzzle #${state.currentPuzzleIndex + 1} in ${dom.timerContainer.textContent}!\n\nPlay free at smack-that.web.app`;
+    
+    if (navigator.share) {
+        navigator.share({ title: 'Smack That...', text: text }).then(() => {
+            alert("Thanks for sharing! Enjoy 1 Free Binge Puzzle.");
+            bingeCount++;
+            localStorage.setItem("bingeTokens", bingeCount);
+            updateBingeUI();
+        }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Copied to clipboard! Enjoy 1 Free Binge Puzzle.');
+            bingeCount++;
+            localStorage.setItem("bingeTokens", bingeCount);
+            updateBingeUI();
+        });
+    }
+    if (analytics) logEvent(analytics, 'brag_clicked');
+});
+
+// Autoplay Simulation for video generator
+function simulateAutoplay() {
+    if (!autoplay) return;
+    
+    setTimeout(() => {
+        // Phase 1 clicks
+        const donkeys = document.querySelectorAll('.donkey');
+        let clickTime = 1000;
+        donkeys.forEach(node => {
+            setTimeout(() => {
+                node.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 100, clientY: 100 }));
+            }, clickTime);
+            clickTime += 1200;
+        });
+
+        // Click Smack Down
+        setTimeout(() => {
+            dom.smackBtn.click();
+        }, clickTime + 1000);
+
+        // Click correctly in order
+        setTimeout(() => {
+            let answerTime = clickTime + 2000;
+            
+            if (autoplay === 'fail') {
+                // Click a totally wrong letter to fail the sequence!
+                setTimeout(() => {
+                    const wrongTarget = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter !== state.letters[0]);
+                    if(wrongTarget) wrongTarget.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 100, clientY: 100 }));
+                }, answerTime);
+                
+                setTimeout(() => {
+                    window._VIDEO_RECORDING_DONE = true;
+                }, answerTime + 3000);
+                
+            } else if (autoplay === 'interactive') {
+                // Click all but the last one
+                for (let i = 0; i < state.letters.length - 1; i++) {
+                    const letter = state.letters[i];
+                    setTimeout(() => {
+                        const target = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter === letter);
+                        if(target) target.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 100, clientY: 100 }));
+                    }, answerTime);
+                    answerTime += 800;
+                }
+                
+                setTimeout(() => {
+                    window._VIDEO_RECORDING_DONE = true;
+                }, answerTime + 3000);
+            } else {
+                // Standard: Click ALL correctly
+                state.letters.forEach(letter => {
+                    setTimeout(() => {
+                        const target = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter === letter);
+                        if(target) target.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 100, clientY: 100 }));
+                    }, answerTime);
+                    answerTime += 800; 
+                });
+            }
+        }, clickTime + 1000);
+
+    }, 2000);
+}
+
+initGame();
+if (autoplay) {
+    simulateAutoplay();
+}
+
+// Custom Cursor Logic
+const customCursor = document.getElementById('custom-cursor');
+if (customCursor) {
+    document.addEventListener('mousemove', (e) => {
+        customCursor.style.left = e.clientX + 'px';
+        customCursor.style.top = e.clientY + 'px';
+    });
+    document.addEventListener('mousedown', () => {
+        document.body.classList.add('slapping');
+    });
+    document.addEventListener('mouseup', () => {
+        document.body.classList.remove('slapping');
+    });
+    document.addEventListener('mouseleave', () => {
+        customCursor.style.display = 'none';
+    });
+    document.addEventListener('mouseenter', () => {
+        customCursor.style.display = 'block';
+    });
+}
+

@@ -45,9 +45,24 @@ jobs:
       - name: Trigger Zapier Distribution
         if: success()
         run: |
-          # The specific webhook URL should ideally be stored in GitHub Secrets
-          # Here we placeholder it based on the Oops-Games pipeline
-          curl -X POST -H "Content-Type: application/json" -d "{\"game\": \"Smack That...\", \"format\": \"${{ matrix.format }}\", \"status\": \"ready\"}" ${{ secrets.ZAPIER_WEBHOOK_URL }}
+          CAPTIONS=(
+            "Can you smack the donkey in the right order? 🫏 Play free at oops-games-hub.web.app"
+            "Only 1% of players memorize this sequence perfectly! Try it free at oops-games-hub.web.app 🍎"
+            "Today's Smack That... Daily Challenge! 🐴 Are you smart enough? Play free at oops-games-hub.web.app"
+          )
+          YOUTUBE_TITLES=(
+            "Can You Smack The Sequence? (#Shorts)"
+            "Fastest Way To Solve Today's Memory Puzzle (#Gaming)"
+            "Daily Donkey Farm Puzzle (#BrainTeaser)"
+          )
+          R_INDEX=$(( $RANDOM % 3 ))
+          CAPTION="${CAPTIONS[$R_INDEX]} #BrainTraining #DailyPuzzle #MemoryGame #"$(date +'%Y%m%d')
+          YT_TITLE="${YOUTUBE_TITLES[$R_INDEX]}"
+          TS=$(date +'%s')
+          
+          curl --fail --silent --show-error -X POST -H "Content-Type: application/json" \
+          -d "{\"video_url\": \"https://smack-that-donkey.web.app/daily_video.mp4?t=$TS\", \"text\": \"$CAPTION\", \"youtube_title\": \"$YT_TITLE\", \"target_channel\": \"all\"}" \
+          https://hooks.zapier.com/hooks/catch/27231889/ujm5mjh/ || exit 1
 
   deploy-hub:
     runs-on: ubuntu-latest

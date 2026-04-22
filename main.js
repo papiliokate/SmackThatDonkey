@@ -12,7 +12,7 @@ if (import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
       storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
       messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
       appId: import.meta.env.VITE_FIREBASE_APP_ID,
-      measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+      measurementId: "G-BJLK9339LN",
     };
     const app = initializeApp(firebaseConfig);
     analytics = getAnalytics(app);
@@ -530,7 +530,7 @@ dom.btnInstall.addEventListener('click', () => {
 });
 
 dom.btnShare.addEventListener('click', () => {
-    const text = `🫏 Smack That... \nPuzzle #${state.currentPuzzleIndex + 1} in ${dom.timerContainer.textContent}!\n\nPlay free at smack-that-donkey.web.app`;
+    const text = `🫏 Smack That... \nPuzzle #${state.currentPuzzleIndex + 1} in ${dom.timerContainer.textContent}!\n\nPlay free at https://smack-that-donkey.web.app`;
     
     if (navigator.share) {
         navigator.share({ title: 'Smack That...', text: text }).then(() => {
@@ -554,20 +554,40 @@ dom.btnShare.addEventListener('click', () => {
 function simulateAutoplay() {
     if (!autoplay) return;
     
+    function clickAnimated(node) {
+        if (!node) return;
+        const rect = node.getBoundingClientRect();
+        const x = rect.left + rect.width / 2;
+        const y = rect.top + rect.height / 2;
+        if (customCursor) {
+            customCursor.style.display = 'block';
+            customCursor.style.transition = 'left 0.25s ease-out, top 0.25s ease-out';
+            customCursor.style.left = x + 'px';
+            customCursor.style.top = y + 'px';
+        }
+        setTimeout(() => {
+            node.dispatchEvent(new MouseEvent('mousedown', { bubbles: true, clientX: x, clientY: y }));
+            setTimeout(() => {
+                node.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, clientX: x, clientY: y }));
+                node.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: x, clientY: y }));
+            }, 50);
+        }, 250);
+    }
+
     setTimeout(() => {
         // Phase 1 clicks
         const donkeys = document.querySelectorAll('.donkey');
         let clickTime = 1000;
         donkeys.forEach(node => {
             setTimeout(() => {
-                node.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 100, clientY: 100 }));
+                clickAnimated(node);
             }, clickTime);
             clickTime += 1200;
         });
 
         // Click Smack Down
         setTimeout(() => {
-            dom.smackBtn.click();
+            clickAnimated(dom.smackBtn);
         }, clickTime + 1000);
 
         // Click correctly in order
@@ -578,7 +598,7 @@ function simulateAutoplay() {
                 // Click a totally wrong letter to fail the sequence!
                 setTimeout(() => {
                     const wrongTarget = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter !== state.letters[0]);
-                    if(wrongTarget) wrongTarget.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 100, clientY: 100 }));
+                    clickAnimated(wrongTarget);
                 }, answerTime);
                 
                 setTimeout(() => {
@@ -591,7 +611,7 @@ function simulateAutoplay() {
                     const letter = state.letters[i];
                     setTimeout(() => {
                         const target = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter === letter);
-                        if(target) target.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 100, clientY: 100 }));
+                        clickAnimated(target);
                     }, answerTime);
                     answerTime += 800;
                 }
@@ -604,7 +624,7 @@ function simulateAutoplay() {
                 state.letters.forEach(letter => {
                     setTimeout(() => {
                         const target = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter === letter);
-                        if(target) target.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 100, clientY: 100 }));
+                        clickAnimated(target);
                     }, answerTime);
                     answerTime += 800; 
                 });

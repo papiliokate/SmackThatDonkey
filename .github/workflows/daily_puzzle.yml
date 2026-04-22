@@ -25,6 +25,8 @@ jobs:
 
       - name: Generate Daily Puzzle
         run: node scripts/generate_puzzle.js
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Commit and Push Puzzle Data
         run: |
@@ -32,4 +34,11 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add public/daily_puzzle.json
           git commit -m "chore: update daily puzzle [skip ci]" || echo "No changes to commit"
+          git pull --rebase
           git push
+
+      - name: Build Application
+        run: npm run build
+
+      - name: Deploy to Firebase Hosting
+        run: npx firebase-tools deploy --only hosting:smack-that-donkey --project go-rabbit-4af82 --token "${{ secrets.FIREBASE_TOKEN }}"

@@ -2,17 +2,14 @@ name: Daily Video Generation
 
 on:
   schedule:
-    - cron: '0 22 * * *' # 4:00 PM CST (22:00 UTC)
+    - cron: '0 12 * * *'
+    - cron: '0 20 * * *'
+    - cron: '0 23 * * *'
   workflow_dispatch:
 
 jobs:
   generate-video:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        format: [standard, fail, interactive]
-      max-parallel: 1 # Run sequentially to avoid stressing resources
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -22,28 +19,78 @@ jobs:
         with:
           node-version: 'latest'
 
+      - name: Decentralized Election
+        id: election
+        run: |
+          ELECTION=$(node -e "
+            const crypto = require('crypto');
+            const d = new Date();
+            const dateStr = d.toISOString().split('T')[0];
+            const h = d.getUTCHours();
+            let slot = 'slot3';
+            if (h >= 11 && h < 14) slot = 'slot1';
+            else if (h >= 19 && h < 22) slot = 'slot2';
+            const seed = dateStr + '-' + slot;
+            const hash = crypto.createHash('md5').update(seed).digest('hex');
+            console.log(parseInt(hash.substring(0, 8), 16) % 3);
+          ")
+          echo "Elected Repo ID: $ELECTION"
+          
+          # SmackThatDonkey is ID 1
+          if [ "$ELECTION" -ne 1 ]; then
+            echo "Not elected for this slot. Exiting gracefully."
+            echo "proceed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "proceed=true" >> $GITHUB_OUTPUT
+          
+          FORMATS=("standard" "fail" "interactive" "glitch" "bad_donkey_silent" "bad_donkey_tts")
+          SELECTED_FORMAT=${FORMATS[$(( $RANDOM % 6 ))]}
+          echo "Selected Format: $SELECTED_FORMAT"
+          echo "FORMAT=$SELECTED_FORMAT" >> $GITHUB_ENV
+
       - name: Install System Dependencies
+        if: steps.election.outputs.proceed == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y xvfb libgbm-dev ffmpeg
       
       - name: Install Node Dependencies
+        if: steps.election.outputs.proceed == 'true'
         run: npm ci
 
-      - name: Generate Video (${{ matrix.format }})
-        run: xvfb-run --auto-servernum --server-args="-screen 0 720x1280x24" node scripts/generate_video.js
-        env:
-          FORMAT: ${{ matrix.format }}
+      - name: Generate Video
+        if: steps.election.outputs.proceed == 'true'
+        run: |
+          if [[ "$FORMAT" == bad_donkey* ]]; then
+            if [[ "$FORMAT" == "bad_donkey_silent" ]]; then
+              export FORMAT="silent"
+            else
+              export FORMAT="tts"
+            fi
+            xvfb-run --auto-servernum --server-args="-screen 0 720x1280x24" node scripts/generate_bad_donkey.js
+          else
+            xvfb-run --auto-servernum --server-args="-screen 0 720x1280x24" node scripts/generate_video.js
+          fi
+
+      - name: Build Application
+        if: steps.election.outputs.proceed == 'true'
+        run: npm run build
+
+      - name: Deploy to Firebase Hosting
+        if: steps.election.outputs.proceed == 'true'
+        run: npx firebase-tools deploy --only hosting:smack-that-donkey --project go-rabbit-4af82 --token "${{ secrets.FIREBASE_TOKEN }}"
 
       - name: Upload Video Artifact
+        if: steps.election.outputs.proceed == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: daily_video_${{ matrix.format }}
-          path: public/daily_video.mp4
+          name: daily_video
+          path: public/*.mp4
           retention-days: 1
 
       - name: Trigger Zapier Distribution
-        if: success()
+        if: success() && steps.election.outputs.proceed == 'true'
         run: |
           CAPTIONS=(
             "Can you smack the donkey in the right order? 🫏 Play free at oops-games-hub.web.app"
@@ -60,7 +107,9 @@ jobs:
           YT_TITLE="${YOUTUBE_TITLES[$R_INDEX]}"
           TS=$(date +'%s')
           
+          # Find the generated mp4 (daily_video.mp4 or bad_donkey_silent.mp4 etc)
+          VIDEO_FILE=$(basename $(ls public/*.mp4 | head -n 1))
+          
           curl --fail --silent --show-error -X POST -H "Content-Type: application/json" \
-          -d "{\"video_url\": \"https://smack-that-donkey.web.app/daily_video.mp4?t=$TS\", \"text\": \"$CAPTION\", \"youtube_title\": \"$YT_TITLE\", \"target_channel\": \"all\"}" \
+          -d "{\"video_url\": \"https://smack-that-donkey.web.app/$VIDEO_FILE?t=$TS\", \"text\": \"$CAPTION\", \"youtube_title\": \"$YT_TITLE\", \"target_channel\": \"all\"}" \
           https://hooks.zapier.com/hooks/catch/27231889/ujm5mjh/ || exit 1
-

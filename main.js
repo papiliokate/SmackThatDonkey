@@ -24,7 +24,20 @@ if (import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
 
 let bingeCount = parseInt(localStorage.getItem("bingeTokens") || "0");
 
-// Meta-Cipher System (IDL Timezone)
+const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+if (isStandalone && !localStorage.getItem('pwaBountyClaimed')) {
+    localStorage.setItem('pwaBountyClaimed', 'true');
+    bingeCount += 1;
+    localStorage.setItem('bingeTokens', bingeCount);
+    setTimeout(() => {
+        const toast = document.getElementById('loss-toast');
+        if (toast) {
+            toast.textContent = "Bounty Claimed: +1 Binge Token!";
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+    }, 1000);
+}// Meta-Cipher System (IDL Timezone)
 function mulberry32(a) {
     return function() {
       var t = a += 0x6D2B79F5;
@@ -519,13 +532,18 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
 dom.btnInstall.addEventListener('click', () => {
     if (analytics) logEvent(analytics, 'install_prompt_clicked');
-    if (deferredPrompt) {
-        deferredPrompt.prompt();
-        deferredPrompt.userChoice.then(() => {
-            deferredPrompt = null;
-        });
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    if (isIOS) {
+        document.getElementById('ios-install-modal').classList.add('active');
     } else {
-        alert("App is already installed or not supported on this browser.");
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then(() => {
+                deferredPrompt = null;
+            });
+        } else {
+            alert("App is already installed or not supported on this browser.");
+        }
     }
 });
 

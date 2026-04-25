@@ -19,7 +19,8 @@ function generatePuzzle() {
         }
         
         const DAY_MS = 24 * 60 * 60 * 1000;
-        const daysSinceEpoch = Math.floor(Date.now() / DAY_MS);
+        const OFFSET = 1; // Advanced by 1 for production testing
+        const daysSinceEpoch = Math.floor(Date.now() / DAY_MS) + OFFSET;
         const puzzleIndex = daysSinceEpoch % puzzlesDB.length;
         
         const todayPuzzleSet = puzzlesDB[puzzleIndex];

@@ -1,18 +1,18 @@
 {
   "date": "2026-04-25",
-  "dailyIndex": 168,
+  "dailyIndex": 169,
   "puzzles": [
     {
       "q": "What body part do you use to smell?",
       "a": "NOSE"
     },
     {
-      "q": "Has pages and a spine?",
-      "a": "NOVELS"
+      "q": "You wear it in winter?",
+      "a": "JACKET"
     },
     {
-      "q": "Worn on your wrist?",
-      "a": "BRACELET"
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
     }
   ],
   "pool": [

@@ -1,0 +1,5602 @@
+[
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "A place to learn?",
+      "a": "SCHOOL"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Used to take photos?",
+      "a": "POLAROID"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "ROCKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It holds your food?",
+      "a": "PLATES"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "You sleep under it?",
+      "a": "BLANKETS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "Used for computing?",
+      "a": "COMPUTER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "GROCER"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Used to browse the web?",
+      "a": "INTERNET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "A tool to see stars?",
+      "a": "TELESCOP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You drink water from?",
+      "a": "BOTTLE"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "You use it to call?",
+      "a": "CELLULAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Round object in space?",
+      "a": "PLANET"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You wear it in winter?",
+      "a": "JACKET"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You look through it?",
+      "a": "WINDOW"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "STARSHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Holds your pants up?",
+      "a": "BUCKLE"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "MARKET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "A tall structure?",
+      "a": "BUILDING"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "A sweet baked good?",
+      "a": "BROWNIES"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on heads?",
+      "a": "STRAND"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "COLORS"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to paint?",
+      "a": "BRUSH"
+    },
+    {
+      "q": "Animal with a trunk?",
+      "a": "ELEPHANT"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "You sit on it?",
+      "a": "CHAIRS"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Worn on your wrist?",
+      "a": "BRACELET"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "It grows on your head?",
+      "a": "HAIR"
+    },
+    {
+      "q": "Used to carry things?",
+      "a": "BACKPACK"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Used to cut paper?",
+      "a": "SCISSORS"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Keeps you dry in rain?",
+      "a": "PONCHO"
+    },
+    {
+      "q": "A musical instrument?",
+      "a": "KEYBOARD"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "A huge body of water?",
+      "a": "SEASCAPE"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Orange vegetable?",
+      "a": "CARROT"
+    },
+    {
+      "q": "Keeps your head safe?",
+      "a": "HEADGEAR"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Yellow fruit for monkeys?",
+      "a": "BANANA"
+    },
+    {
+      "q": "It flies to space?",
+      "a": "SPACESHIP"
+    }
+  ],
+  [
+    {
+      "q": "What body part do you use to smell?",
+      "a": "NOSE"
+    },
+    {
+      "q": "Used to erase pencil?",
+      "a": "ERASER"
+    },
+    {
+      "q": "A place to buy food?",
+      "a": "BOUTIQUE"
+    }
+  ]
+]

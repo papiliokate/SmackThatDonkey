@@ -179,12 +179,17 @@ updateBingeUI();
 const urlParams = new URLSearchParams(window.location.search);
 const autoplay = urlParams.get('autoplay');
 
-async function initGame() {
+let puzzlePool = [];
+let dailyIndex = 0;
+
+async function fetchPuzzleData() {
     try {
         const response = await fetch('/daily_puzzle.json');
         if (!response.ok) throw new Error("HTTP error " + response.status);
         const data = await response.json();
         state.dailyPuzzles = data.puzzles;
+        puzzlePool = data.pool || [];
+        dailyIndex = data.dailyIndex || 0;
     } catch (e) {
         console.warn("Failed to load daily_puzzle.json, falling back:", e);
         state.dailyPuzzles = [
@@ -193,13 +198,22 @@ async function initGame() {
              {q: "What massive grey animal has large ears and a long trunk?", a: "ELEPHANT"}
         ];
     }
-    
+}
+
+async function initGame() {
+    await fetchPuzzleData();
+    state.isBingeMode = false;
+    renderPuzzleBoard();
+}
+
+function renderPuzzleBoard() {
     if (state.currentPuzzleIndex >= state.dailyPuzzles.length) {
         state.currentPuzzleIndex = 0;
     }
     
     const currentData = state.dailyPuzzles[state.currentPuzzleIndex];
-    state.question = `Daily Puzzle ${state.currentPuzzleIndex + 1}: ${currentData.q}`;
+    const prefix = state.isBingeMode ? "Binge Puzzle" : "Daily Puzzle";
+    state.question = `${prefix} ${state.currentPuzzleIndex + 1}: ${currentData.q}`;
     state.answer = currentData.a;
 
     // Basic setup for exact letters
@@ -451,45 +465,49 @@ function loadBingePuzzle() {
         updateBingeUI();
      }
      
-     const bonusPool = [
-         { q: "A highly intelligent person?", a: "GENIUS" },
-         { q: "Someone in charge or highly skilled?", a: "MASTER" },
-         { q: "Excellent or outstanding?", a: "SUPER" },
-         { q: "A round glowing object in the night sky?", a: "MOON" },
-         { q: "To propel oneself upward?", a: "JUMP" },
-         { q: "The color of an apple or fire engine?", a: "RED" },
-         { q: "A four-legged farm animal offering milk?", a: "COW" }
-     ];
-     const selected = bonusPool[Math.floor(Math.random() * bonusPool.length)];
-
-     state.question = `Binge: ${selected.q}`;
-     state.answer = selected.a;
-     state.letters = state.answer.split('');
-     const shuffledLetters = [...state.letters].sort(() => Math.random() - 0.5);
-     dom.trivia.textContent = state.question;
-     dom.board.innerHTML = '';
-     dom.hayBales.innerHTML = '';
+     if (puzzlePool && puzzlePool.length > 0) {
+         let playedBingeIndexes = [];
+         try {
+             playedBingeIndexes = JSON.parse(localStorage.getItem('playedBingeIndexes') || '[]');
+         } catch(e){}
+         
+         let available = [];
+         for(let i=0; i<puzzlePool.length; i++) {
+             if (i !== dailyIndex && !playedBingeIndexes.includes(i)) {
+                 available.push(i);
+             }
+         }
+         
+         if (available.length === 0) {
+             playedBingeIndexes = [];
+             localStorage.setItem('playedBingeIndexes', '[]');
+             for(let i=0; i<puzzlePool.length; i++) {
+                 if (i !== dailyIndex) available.push(i);
+             }
+         }
+         
+         const chosenIndex = available[Math.floor(Math.random() * available.length)];
+         playedBingeIndexes.push(chosenIndex);
+         localStorage.setItem('playedBingeIndexes', JSON.stringify(playedBingeIndexes));
+         
+         state.dailyPuzzles = puzzlePool[chosenIndex]; 
+     } else {
+         const bonusPool = [
+             { q: "A highly intelligent person?", a: "GENIUS" },
+             { q: "Someone in charge or highly skilled?", a: "MASTER" },
+             { q: "Excellent or outstanding?", a: "SUPER" },
+             { q: "A round glowing object in the night sky?", a: "MOON" },
+             { q: "To propel oneself upward?", a: "JUMP" },
+             { q: "The color of an apple or fire engine?", a: "RED" },
+             { q: "A four-legged farm animal offering milk?", a: "COW" }
+         ];
+         state.dailyPuzzles = [bonusPool[Math.floor(Math.random() * bonusPool.length)]];
+     }
      
-     shuffledLetters.forEach((letter, index) => {
-         const donkey = document.createElement('div');
-         donkey.className = 'donkey';
-         donkey.dataset.letter = letter;
-         donkey.dataset.index = index;
-         const letterSpan = document.createElement('span');
-         letterSpan.className = 'letter';
-         letterSpan.textContent = letter;
-         donkey.appendChild(letterSpan);
-         donkey.addEventListener('click', (e) => handleDonkeyClick(e, donkey, letter));
-         dom.board.appendChild(donkey);
-     });
-     state.letters.forEach(() => {
-         const bale = document.createElement('div');
-         bale.className = 'hay-bale';
-         dom.hayBales.appendChild(bale);
-     });
-     
+     state.currentPuzzleIndex = 0;
+     state.isBingeMode = true;
      dom.winModal.classList.remove('active');
-     setToPhase1();
+     renderPuzzleBoard();
 }
 
 dom.btnNextPuzzle.addEventListener('click', () => {
@@ -498,10 +516,11 @@ dom.btnNextPuzzle.addEventListener('click', () => {
             loadBingePuzzle();
             return;
         }
+    } else {
+        state.currentPuzzleIndex++;
     }
-    state.currentPuzzleIndex++;
     dom.winModal.classList.remove('active');
-    initGame();
+    renderPuzzleBoard();
 });
 
 dom.btnRestart.addEventListener('click', () => {

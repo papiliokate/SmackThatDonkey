@@ -566,6 +566,10 @@ dom.btnInstall.addEventListener('click', () => {
     }
 });
 
+document.getElementById('btn-close-ios-modal').addEventListener('click', () => {
+    document.getElementById('ios-install-modal').classList.remove('active');
+});
+
 dom.btnShare.addEventListener('click', () => {
     const text = `🫏 Smack That... \nPuzzle #${state.currentPuzzleIndex + 1} in ${dom.timerContainer.textContent}!\n\nPlay free at https://smack-that-donkey.web.app`;
     

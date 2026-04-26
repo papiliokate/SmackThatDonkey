@@ -412,13 +412,18 @@
       <div class="modal-content">
         <h2 id="win-title">Yeehaw!</h2>
         <p id="win-time">Time: 00:00</p>
-        <div class="modal-btns">
+        <div class="modal-btns" id="regular-win-btns">
           <button class="modal-btn btn-next" id="btn-next-puzzle" style="display:none;">➡️ Next Puzzle</button>
           <button class="modal-btn btn-share" id="btn-share">📤 Brag for Another Puzzle!</button>
           <button class="modal-btn btn-install" id="btn-install">📲 Add to Device</button>
           <button class="modal-btn btn-binge" id="btn-binge">🎟️ Binge Puzzles ($0.99)</button>
           <button class="modal-btn btn-hub" id="btn-hub" onclick="window.location.href='https://oops-games-hub.web.app'">🎮 Play a different game</button>
           <button class="modal-btn btn-play-again" id="btn-restart">↻ Restart</button>
+        </div>
+        <div class="modal-btns" id="carousel-btns" style="display:none;">
+          <button class="modal-btn btn-next" id="carousel-play-next">➡️ Play the next game</button>
+          <button class="modal-btn btn-share" id="carousel-share" style="display:none;">📤 Share for another ride</button>
+          <button class="modal-btn btn-binge" id="carousel-binge">🎟️ Binge this game</button>
         </div>
         <p id="win-cypher" style="font-size: 1.5rem; font-family: monospace; letter-spacing: 4px; color: #333; margin: 15px auto; font-weight: bold; background: #eee; padding: 10px; border-radius: 10px; border: 2px dashed #ccc; width: fit-content;"></p>
       </div>

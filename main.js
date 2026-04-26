@@ -187,7 +187,16 @@ async function fetchPuzzleData() {
         const response = await fetch('/daily_puzzle.json');
         if (!response.ok) throw new Error("HTTP error " + response.status);
         const data = await response.json();
-        state.dailyPuzzles = data.puzzles;
+        const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
+        if (isCarousel) {
+            const bonusPool6 = [
+                 { q: "A highly intelligent person?", a: "GENIUS" },
+                 { q: "Someone in charge or highly skilled?", a: "MASTER" }
+            ];
+            state.dailyPuzzles = [bonusPool6[Math.floor(Math.random() * bonusPool6.length)]];
+        } else {
+            state.dailyPuzzles = data.puzzles;
+        }
         puzzlePool = data.pool || [];
         dailyIndex = data.dailyIndex || 0;
     } catch (e) {
@@ -417,20 +426,43 @@ function winGame() {
     
     if (analytics) logEvent(analytics, 'level_complete', { level: state.currentPuzzleIndex + 1 });
 
-    if (isFinalPuzzle && bingeCount === 0) {
-        dom.btnNextPuzzle.style.display = 'none';
-        dom.btnInstall.style.display = 'flex';
-        dom.btnBinge.style.display = 'flex';
-        dom.btnRestart.style.display = 'flex';
-        dom.btnShare.style.display = 'flex';
-        dom.btnHub.style.display = 'flex';
+    const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
+    const regBtns = document.getElementById('regular-win-btns');
+    const carBtns = document.getElementById('carousel-btns');
+    
+    if (isCarousel) {
+        if (regBtns) regBtns.style.display = 'none';
+        if (carBtns) carBtns.style.display = 'flex';
+        
+        let playedGames = urlParams.get('played') ? urlParams.get('played').split(',').filter(Boolean) : [];
+        if (!playedGames.includes('ST')) playedGames.push('ST');
+        
+        const playNextBtn = document.getElementById('carousel-play-next');
+        const shareBtn = document.getElementById('carousel-share');
+        
+        if (playedGames.length >= 4) {
+            if (playNextBtn) playNextBtn.style.display = 'none';
+            if (shareBtn) shareBtn.style.display = 'flex';
+        }
     } else {
-        dom.btnNextPuzzle.style.display = 'flex';
-        dom.btnShare.style.display = 'flex';
-        dom.btnHub.style.display = 'flex';
-        dom.btnInstall.style.display = 'none';
-        dom.btnBinge.style.display = 'none';
-        dom.btnRestart.style.display = 'none';
+        if (carBtns) carBtns.style.display = 'none';
+        if (regBtns) regBtns.style.display = 'flex';
+        
+        if (isFinalPuzzle && bingeCount === 0) {
+            dom.btnNextPuzzle.style.display = 'none';
+            dom.btnInstall.style.display = 'flex';
+            dom.btnBinge.style.display = 'flex';
+            dom.btnRestart.style.display = 'flex';
+            dom.btnShare.style.display = 'flex';
+            dom.btnHub.style.display = 'flex';
+        } else {
+            dom.btnNextPuzzle.style.display = 'flex';
+            dom.btnShare.style.display = 'flex';
+            dom.btnHub.style.display = 'flex';
+            dom.btnInstall.style.display = 'none';
+            dom.btnBinge.style.display = 'none';
+            dom.btnRestart.style.display = 'none';
+        }
     }
     
     setTimeout(() => {
@@ -541,6 +573,50 @@ dom.btnBinge.addEventListener('click', () => {
 
 dom.btnHub.addEventListener('click', () => {
     if (analytics) logEvent(analytics, 'hub_clicked');
+});
+
+// Carousel Logic
+document.getElementById("carousel-play-next")?.addEventListener("click", () => {
+    let playedGames = new URLSearchParams(window.location.search).get('played') ? new URLSearchParams(window.location.search).get('played').split(',').filter(Boolean) : [];
+    if (!playedGames.includes('ST')) playedGames.push('ST');
+    const GAMES_LIST = [
+        { id: 'GR', url: 'https://go-rabbit-4af82.web.app' },
+        { id: 'SS', url: 'https://she-sells-sea-shells.web.app' },
+        { id: 'ST', url: 'https://smack-that-donkey.web.app' },
+        { id: 'OG', url: 'https://o-gox.web.app' }
+    ];
+    const unplayed = GAMES_LIST.filter(g => !playedGames.includes(g.id));
+    if (unplayed.length > 0) {
+        const nextGame = unplayed[Math.floor(Math.random() * unplayed.length)];
+        window.location.href = `${nextGame.url}?carousel=true&played=${playedGames.join(',')}`;
+    }
+});
+
+document.getElementById("carousel-binge")?.addEventListener("click", () => {
+    if (analytics) logEvent(analytics, 'binge_presale_click');
+    window.location.href = 'https://oops-games-hub.web.app/presale.html';
+});
+
+document.getElementById("carousel-share")?.addEventListener("click", () => {
+    const text = "I rode the carousel at oops-games.";
+    const GAMES_LIST = [
+        { id: 'GR', url: 'https://go-rabbit-4af82.web.app' },
+        { id: 'SS', url: 'https://she-sells-sea-shells.web.app' },
+        { id: 'ST', url: 'https://smack-that-donkey.web.app' },
+        { id: 'OG', url: 'https://o-gox.web.app' }
+    ];
+    if (navigator.share) {
+        navigator.share({ title: 'Oops-Games Carousel', text }).then(() => {
+            const nextGame = GAMES_LIST[Math.floor(Math.random() * GAMES_LIST.length)];
+            window.location.href = `${nextGame.url}?carousel=true&played=`;
+        }).catch(e => console.warn(e));
+    } else {
+        navigator.clipboard.writeText(text).then(() => {
+            alert("Copied to clipboard!");
+            const nextGame = GAMES_LIST[Math.floor(Math.random() * GAMES_LIST.length)];
+            window.location.href = `${nextGame.url}?carousel=true&played=`;
+        });
+    }
 });
 
 let deferredPrompt;

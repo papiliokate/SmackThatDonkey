@@ -1,18 +1,18 @@
 {
-  "date": "2026-04-25",
-  "dailyIndex": 169,
+  "date": "2026-04-26",
+  "dailyIndex": 170,
   "puzzles": [
     {
       "q": "What body part do you use to smell?",
       "a": "NOSE"
     },
     {
-      "q": "You wear it in winter?",
-      "a": "JACKET"
+      "q": "It holds your food?",
+      "a": "PLATES"
     },
     {
-      "q": "Used to carry things?",
-      "a": "BACKPACK"
+      "q": "Used to take photos?",
+      "a": "POLAROID"
     }
   ],
   "pool": [

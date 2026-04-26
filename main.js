@@ -580,7 +580,6 @@ dom.btnHub.addEventListener('click', () => {
 });
 
 // Carousel Logic
-const urlParams = new URLSearchParams(window.location.search);
 const isCarousel = urlParams.get('carousel') === 'true';
 const playedGamesStr = urlParams.get('played') || '';
 

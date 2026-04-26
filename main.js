@@ -576,45 +576,78 @@ dom.btnHub.addEventListener('click', () => {
 });
 
 // Carousel Logic
-document.getElementById("carousel-play-next")?.addEventListener("click", () => {
-    let playedGames = new URLSearchParams(window.location.search).get('played') ? new URLSearchParams(window.location.search).get('played').split(',').filter(Boolean) : [];
+const urlParams = new URLSearchParams(window.location.search);
+const isCarousel = urlParams.get('carousel') === 'true';
+const playedGamesStr = urlParams.get('played') || '';
+
+if (urlParams.get('mockPurchase') === 'true') {
+    bingeCount += 5;
+    localStorage.setItem('bingeTokens', bingeCount);
+    updateBingeUI();
+    const newUrl = window.location.href.replace(/([&?])mockPurchase=true&?/, '$1').replace(/&$/, '').replace(/\?$/, '');
+    window.history.replaceState({}, '', newUrl);
+    setTimeout(() => {
+        const toast = document.getElementById("loss-toast");
+        if(toast) {
+            toast.textContent = "Mock Purchase Successful! Added 5 Binge Tokens.";
+            toast.style.background = "#4CAF50";
+            toast.classList.add("show");
+            setTimeout(() => { toast.classList.remove("show"); toast.style.background = ""; }, 2500);
+        }
+    }, 100);
+}
+
+if (isCarousel) {
+    const headerNext = document.getElementById('header-carousel-next');
+    if (headerNext) headerNext.style.display = 'block';
+}
+
+const advanceCarousel = async () => {
+    let playedGames = playedGamesStr ? playedGamesStr.split(',').filter(Boolean) : [];
     if (!playedGames.includes('ST')) playedGames.push('ST');
-    const GAMES_LIST = [
-        { id: 'GR', url: 'https://go-rabbit-4af82.web.app' },
-        { id: 'SS', url: 'https://she-sells-sea-shells.web.app' },
-        { id: 'ST', url: 'https://smack-that-donkey.web.app' },
-        { id: 'OG', url: 'https://o-gox.web.app' }
-    ];
-    const unplayed = GAMES_LIST.filter(g => !playedGames.includes(g.id));
-    if (unplayed.length > 0) {
-        const nextGame = unplayed[Math.floor(Math.random() * unplayed.length)];
-        window.location.href = `${nextGame.url}?carousel=true&played=${playedGames.join(',')}`;
+    try {
+        const res = await fetch('https://oops-games-hub.web.app/carousel_config.json');
+        const configList = await res.json();
+        const unplayed = configList.filter(g => !playedGames.includes(g.id));
+        if (unplayed.length > 0) {
+            const nextGame = unplayed[Math.floor(Math.random() * unplayed.length)];
+            window.location.href = `${nextGame.url}?carousel=true&played=${playedGames.join(',')}`;
+        } else {
+            window.location.href = 'https://oops-games-hub.web.app/';
+        }
+    } catch(e) {
+        window.location.href = 'https://oops-games-hub.web.app/';
     }
-});
+};
+
+document.getElementById("carousel-play-next")?.addEventListener("click", advanceCarousel);
+document.getElementById("header-carousel-next")?.addEventListener("click", advanceCarousel);
 
 document.getElementById("carousel-binge")?.addEventListener("click", () => {
     if (analytics) logEvent(analytics, 'binge_presale_click');
-    window.location.href = 'https://oops-games-hub.web.app/presale.html';
+    let playedGames = playedGamesStr ? playedGamesStr.split(',').filter(Boolean) : [];
+    if (!playedGames.includes('ST')) playedGames.push('ST');
+    window.location.href = 'https://oops-games-hub.web.app/presale.html?carousel=true&played=' + playedGames.join(',') + '&returnUrl=' + encodeURIComponent(window.location.href);
 });
 
-document.getElementById("carousel-share")?.addEventListener("click", () => {
+document.getElementById("carousel-share")?.addEventListener("click", async () => {
     const text = "I rode the carousel at oops-games.";
-    const GAMES_LIST = [
-        { id: 'GR', url: 'https://go-rabbit-4af82.web.app' },
-        { id: 'SS', url: 'https://she-sells-sea-shells.web.app' },
-        { id: 'ST', url: 'https://smack-that-donkey.web.app' },
-        { id: 'OG', url: 'https://o-gox.web.app' }
-    ];
     if (navigator.share) {
-        navigator.share({ title: 'Oops-Games Carousel', text }).then(() => {
-            const nextGame = GAMES_LIST[Math.floor(Math.random() * GAMES_LIST.length)];
-            window.location.href = `${nextGame.url}?carousel=true&played=`;
-        }).catch(e => console.warn(e));
+        try {
+            await navigator.share({ title: 'Oops-Games Carousel', text });
+            await advanceCarousel();
+        } catch(e) { console.warn(e); }
     } else {
         navigator.clipboard.writeText(text).then(() => {
-            alert("Copied to clipboard!");
-            const nextGame = GAMES_LIST[Math.floor(Math.random() * GAMES_LIST.length)];
-            window.location.href = `${nextGame.url}?carousel=true&played=`;
+            const toast = document.getElementById("loss-toast");
+            toast.textContent = "Copied to clipboard!";
+            toast.style.background = "#4CAF50";
+            toast.classList.add("show");
+            setTimeout(() => {
+                toast.classList.remove("show");
+                toast.style.background = "";
+                advanceCarousel();
+            }, 1000);
         });
     }
 });

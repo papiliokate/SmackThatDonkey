@@ -2,9 +2,9 @@ name: Daily Video Generation
 
 on:
   schedule:
-    - cron: '45 11 * * *'
-    - cron: '45 19 * * *'
-    - cron: '45 22 * * *'
+    - cron: '35 9 * * *'
+    - cron: '0 18 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
 
 jobs:
@@ -29,8 +29,8 @@ jobs:
             const h = d.getUTCHours();
             
             let slotIndex = 2; // Default to slot3
-            if (h >= 11 && h < 14) slotIndex = 0;
-            else if (h >= 19 && h < 22) slotIndex = 1;
+            if (h >= 8 && h < 12) slotIndex = 0;
+            else if (h >= 16 && h < 20) slotIndex = 1;
           
             function mulberry32(a) {
               return function() {

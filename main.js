@@ -184,7 +184,7 @@ let dailyIndex = 0;
 
 async function fetchPuzzleData() {
     try {
-        const response = await fetch('/daily_puzzle.json');
+        const response = await fetch('/daily_puzzle.json?v=' + Date.now());
         if (!response.ok) throw new Error("HTTP error " + response.status);
         const data = await response.json();
         const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
@@ -581,6 +581,7 @@ dom.btnHub.addEventListener('click', () => {
 
 // Carousel Logic
 const isCarousel = urlParams.get('carousel') === 'true';
+if (isCarousel && typeof analytics !== 'undefined' && analytics) { logEvent(analytics, 'carousel_visit', { game_id: 'ST' }); }
 const playedGamesStr = urlParams.get('played') || '';
 
 if (urlParams.get('mockPurchase') === 'true') {

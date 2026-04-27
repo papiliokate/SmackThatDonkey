@@ -50,7 +50,16 @@ async function main() {
     if (!viteReady) throw new Error("Vite server failed to start.");
     console.log("Server is ready!");
 
-    const ttsText = "Wait... what is happening to the game? Did you guys see that code?";
+    const ttsPools = {
+        standard: [
+            "Can you smack that donkey in the right order? Check out the link in our bio to play all our games for free!",
+            "Here is today's Smack That puzzle. Pay attention, and head to our profile to play for free!",
+            "Let's see if you can solve this sequence. Give it a try at the link in our bio!",
+            "A new day, a new sequence to smack. Check out the link in our bio to play yourself!",
+            "Do you have what it takes to beat today's challenge? Play free from our profile!"
+        ]
+    };
+    const ttsText = ttsPools.standard[Math.floor(Math.random() * ttsPools.standard.length)];
 
     console.log("Generating TTS audio...");
     try {

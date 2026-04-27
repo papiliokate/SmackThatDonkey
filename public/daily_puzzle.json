@@ -1,18 +1,18 @@
 {
-  "date": "2026-04-26",
-  "dailyIndex": 170,
+  "date": "2026-04-27",
+  "dailyIndex": 171,
   "puzzles": [
     {
       "q": "What body part do you use to smell?",
       "a": "NOSE"
     },
     {
-      "q": "It holds your food?",
-      "a": "PLATES"
+      "q": "Has pages and a spine?",
+      "a": "NOVELS"
     },
     {
-      "q": "Used to take photos?",
-      "a": "POLAROID"
+      "q": "A place to buy food?",
+      "a": "GROCER"
     }
   ],
   "pool": [

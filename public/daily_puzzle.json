@@ -1,18 +1,18 @@
 {
-  "date": "2026-04-27",
-  "dailyIndex": 171,
+  "date": "2026-04-28",
+  "dailyIndex": 172,
   "puzzles": [
     {
       "q": "What body part do you use to smell?",
       "a": "NOSE"
     },
     {
-      "q": "Has pages and a spine?",
-      "a": "NOVELS"
+      "q": "Round object in space?",
+      "a": "PLANET"
     },
     {
-      "q": "A place to buy food?",
-      "a": "GROCER"
+      "q": "You watch movies on?",
+      "a": "TELEVISE"
     }
   ],
   "pool": [

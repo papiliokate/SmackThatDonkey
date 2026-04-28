@@ -3,31 +3,199 @@
   "dailyIndex": 172,
   "puzzles": [
     {
-      "q": "What body part do you use to smell?",
-      "a": "NOSE"
+      "q": "Opposite of cold?",
+      "a": "WARM"
     },
     {
-      "q": "A sticky substance?",
-      "a": "GLUE"
+      "q": "You look through it?",
+      "a": "WINDOW"
     },
     {
-      "q": "It flies to space?",
-      "a": "STARSHIP"
+      "q": "Used to write notes?",
+      "a": "NOTEBOOK"
     }
   ],
   "pool": [
     [
       {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
+        "q": "You wear it on your head?",
+        "a": "HATS"
       },
       {
-        "q": "It holds your food?",
-        "a": "PLATES"
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
       },
       {
         "q": "Used to carry things?",
         "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "You sleep in it?",
+        "a": "BEDS"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
       }
     ],
     [
@@ -36,2714 +204,12 @@
         "a": "FISH"
       },
       {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "ROCKET"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
         "q": "A sticky substance?",
         "a": "CEMENT"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
       },
       {
         "q": "A tool to see stars?",
         "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Orange vegetable?",
-        "a": "CARROT"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "ROCKET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "ROCKET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "ROCKET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "ROCKET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Orange vegetable?",
-        "a": "CARROT"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "ROCKET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Orange vegetable?",
-        "a": "CARROT"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Orange vegetable?",
-        "a": "CARROT"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "A primary color?",
-        "a": "BLUE"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
       }
     ],
     [
@@ -2752,540 +218,8 @@
         "a": "GOOD"
       },
       {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
         "q": "It holds your food?",
         "a": "PLATES"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Orange vegetable?",
-        "a": "CARROT"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
       },
       {
         "q": "Animal with a trunk?",
@@ -3294,198 +228,16 @@
     ],
     [
       {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
         "q": "Opposite of cold?",
         "a": "WARM"
       },
       {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
         "q": "Round object in space?",
         "a": "PLANET"
       },
       {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
       }
     ],
     [
@@ -3498,406 +250,14 @@
         "a": "CARROT"
       },
       {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
         "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
+        "a": "ROCKET"
       }
     ],
     [
       {
         "q": "What shines in the day?",
         "a": "SUNS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
       },
       {
         "q": "It holds your food?",
@@ -3910,44 +270,16 @@
     ],
     [
       {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
+        "q": "What do you read?",
+        "a": "BOOK"
       },
       {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
+        "q": "Orange vegetable?",
+        "a": "CARROT"
       },
       {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
+        "q": "A tall structure?",
+        "a": "BUILDING"
       }
     ],
     [
@@ -3956,50 +288,8 @@
         "a": "WARM"
       },
       {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
       },
       {
         "q": "You sleep under it?",
@@ -4008,166 +298,12 @@
     ],
     [
       {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
+        "q": "What shines in the day?",
+        "a": "STAR"
       },
       {
         "q": "A sticky substance?",
         "a": "CEMENT"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
       },
       {
         "q": "You watch movies on?",
@@ -4176,12 +312,68 @@
     ],
     [
       {
-        "q": "It tells time?",
-        "a": "TIME"
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Keeps you dry in rain?",
+        "a": "PONCHO"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
       },
       {
         "q": "Has pages and a spine?",
         "a": "NOVELS"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
       },
       {
         "q": "It flies to space?",
@@ -4190,310 +382,16 @@
     ],
     [
       {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "GLUE"
-      },
-      {
-        "q": "Animal with a trunk?",
-        "a": "ELEPHANT"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
       },
       {
         "q": "Yellow fruit for monkeys?",
         "a": "BANANA"
       },
       {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
         "q": "Used to cut paper?",
         "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "Meow animal?",
-        "a": "CATS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "What falls in winter?",
-        "a": "SNOW"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "Used to take photos?",
-        "a": "POLAROID"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "A huge body of water?",
-        "a": "SEASCAPE"
       }
     ],
     [
@@ -4506,14 +404,98 @@
         "a": "BANANA"
       },
       {
-        "q": "It flies to space?",
-        "a": "ROCKET"
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
       }
     ],
     [
       {
         "q": "It swims in water?",
         "a": "FISH"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
       },
       {
         "q": "A sticky substance?",
@@ -4526,30 +508,30 @@
     ],
     [
       {
-        "q": "What barks?",
-        "a": "DOGS"
+        "q": "Opposite of cold?",
+        "a": "WARM"
       },
       {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
+        "q": "Used to paint?",
+        "a": "BRUSH"
       },
       {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
       }
     ],
     [
       {
-        "q": "It tells time?",
-        "a": "TIME"
+        "q": "Opposite of bad?",
+        "a": "GOOD"
       },
       {
-        "q": "It grows on your head?",
-        "a": "HAIR"
+        "q": "Round object in space?",
+        "a": "PLANET"
       },
       {
         "q": "It flies to space?",
-        "a": "STARSHIP"
+        "a": "ROCKET"
       }
     ],
     [
@@ -4562,18 +544,74 @@
         "a": "PLATES"
       },
       {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
       }
     ],
     [
       {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
+        "q": "Opposite of bad?",
+        "a": "GOOD"
       },
       {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
       },
       {
         "q": "Animal with a trunk?",
@@ -4582,26 +620,306 @@
     ],
     [
       {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
       },
       {
         "q": "It holds your food?",
         "a": "PLATES"
       },
       {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
       }
     ],
     [
       {
-        "q": "What falls in winter?",
-        "a": "SNOW"
+        "q": "It flies in the sky?",
+        "a": "BIRD"
       },
       {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "It holds your food?",
+        "a": "PLATES"
       },
       {
         "q": "A tall structure?",
@@ -4610,8 +928,148 @@
     ],
     [
       {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "It holds your food?",
+        "a": "PLATES"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
       },
       {
         "q": "Used to paint?",
@@ -4624,36 +1082,64 @@
     ],
     [
       {
-        "q": "It swims in water?",
-        "a": "FISH"
+        "q": "Opposite of bad?",
+        "a": "GOOD"
       },
       {
-        "q": "A doctor's building?",
-        "a": "CLINIC"
+        "q": "You use it to type?",
+        "a": "BUTTON"
       },
       {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
       }
     ],
     [
       {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "It holds your food?",
+        "a": "PLATES"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
       },
       {
         "q": "A place to learn?",
         "a": "SCHOOL"
       },
       {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
+        "q": "A tall structure?",
+        "a": "BUILDING"
       }
     ],
     [
       {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
       },
       {
         "q": "You look through it?",
@@ -4667,15 +1153,15 @@
     [
       {
         "q": "What shines in the day?",
-        "a": "STAR"
+        "a": "SUNS"
       },
       {
-        "q": "A sticky substance?",
-        "a": "GLUE"
+        "q": "You look through it?",
+        "a": "WINDOW"
       },
       {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
+        "q": "You use it to call?",
+        "a": "CELLULAR"
       }
     ],
     [
@@ -4688,14 +1174,3528 @@
         "a": "JACKET"
       },
       {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Used to erase pencil?",
+        "a": "ERASER"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
         "q": "Animal with a trunk?",
         "a": "ELEPHANT"
       }
     ],
     [
       {
-        "q": "You wear it on your head?",
-        "a": "HATS"
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Used to erase pencil?",
+        "a": "ERASER"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Keeps you dry in rain?",
+        "a": "PONCHO"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "You sleep in it?",
+        "a": "BEDS"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "You sleep in it?",
+        "a": "BEDS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Keeps you dry in rain?",
+        "a": "PONCHO"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Keeps you dry in rain?",
+        "a": "PONCHO"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "It holds your food?",
+        "a": "PLATES"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "You sleep in it?",
+        "a": "BEDS"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Keeps you dry in rain?",
+        "a": "PONCHO"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "You sleep in it?",
+        "a": "BEDS"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "It holds your food?",
+        "a": "PLATES"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "You sleep in it?",
+        "a": "BEDS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Keeps you dry in rain?",
+        "a": "PONCHO"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Keeps you dry in rain?",
+        "a": "PONCHO"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Used to erase pencil?",
+        "a": "ERASER"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "A doctor's building?",
+        "a": "CLINIC"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "It holds your food?",
+        "a": "PLATES"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "It grows on your head?",
+        "a": "HAIR"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "BRUSH"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "MARKET"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You sit on it?",
+        "a": "CHAIRS"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "Used to erase pencil?",
+        "a": "ERASER"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "STAR"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
       },
       {
         "q": "Used to paint?",
@@ -4713,59 +4713,73 @@
       },
       {
         "q": "Used to paint?",
-        "a": "COLORS"
+        "a": "BRUSH"
       },
       {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
       }
     ],
     [
       {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
+        "q": "It swims in water?",
+        "a": "FISH"
       },
       {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
+        "q": "A sticky substance?",
+        "a": "CEMENT"
       },
       {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
+        "q": "Used to take photos?",
+        "a": "POLAROID"
       }
     ],
     [
       {
-        "q": "It tells time?",
-        "a": "TIME"
+        "q": "It flies in the sky?",
+        "a": "BIRD"
       },
       {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
+        "q": "You look through it?",
+        "a": "WINDOW"
       },
       {
-        "q": "A place to buy food?",
-        "a": "GROCER"
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
       }
     ],
     [
       {
-        "q": "What shines in the day?",
-        "a": "STAR"
+        "q": "Meow animal?",
+        "a": "CATS"
       },
       {
         "q": "Round object in space?",
         "a": "PLANET"
       },
       {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
       }
     ],
     [
       {
-        "q": "What falls in winter?",
-        "a": "SNOW"
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
       },
       {
         "q": "It grows on your head?",
@@ -4782,396 +4796,18 @@
         "a": "BOOK"
       },
       {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "What barks?",
-        "a": "DOGS"
-      },
-      {
         "q": "Holds your pants up?",
         "a": "BUCKLE"
       },
       {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "It tells time?",
-        "a": "TIME"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
         "q": "It flies to space?",
         "a": "SPACESHIP"
       }
     ],
     [
       {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "It grows on your head?",
-        "a": "HAIR"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "Used to browse the web?",
-        "a": "INTERNET"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "Orange vegetable?",
-        "a": "CARROT"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Orange vegetable?",
-        "a": "CARROT"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "Holds your pants up?",
-        "a": "BUCKLE"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "MARKET"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "A place to learn?",
-        "a": "SCHOOL"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
-      },
-      {
-        "q": "It holds your food?",
-        "a": "PLATES"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "BOUTIQUE"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
+        "q": "What falls in winter?",
+        "a": "SNOW"
       },
       {
         "q": "Used to paint?",
@@ -5180,188 +4816,6 @@
       {
         "q": "A tool to see stars?",
         "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "You watch movies on?",
-        "a": "TELEVISE"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "STAR"
-      },
-      {
-        "q": "You sit on it?",
-        "a": "CHAIRS"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "What shines in the day?",
-        "a": "SUNS"
-      },
-      {
-        "q": "You use it to type?",
-        "a": "BUTTON"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "You chew it?",
-        "a": "BUBBLE"
-      },
-      {
-        "q": "A sweet baked good?",
-        "a": "BROWNIES"
-      }
-    ],
-    [
-      {
-        "q": "It tells time?",
-        "a": "TIME"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "A place to buy food?",
-        "a": "GROCER"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "A tall structure?",
-        "a": "BUILDING"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Used to write notes?",
-        "a": "NOTEBOOK"
-      }
-    ],
-    [
-      {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
-      },
-      {
-        "q": "It grows on heads?",
-        "a": "STRAND"
-      },
-      {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "What do you read?",
-        "a": "BOOK"
-      },
-      {
-        "q": "You look through it?",
-        "a": "WINDOW"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
-      }
-    ],
-    [
-      {
-        "q": "You sleep in it?",
-        "a": "BEDS"
-      },
-      {
-        "q": "A sticky substance?",
-        "a": "CEMENT"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
       }
     ],
     [
@@ -5370,166 +4824,54 @@
         "a": "FISH"
       },
       {
-        "q": "Yellow fruit for monkeys?",
-        "a": "BANANA"
+        "q": "Orange vegetable?",
+        "a": "CARROT"
       },
       {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "You drink water from?",
-        "a": "BOTTLE"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "STARSHIP"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Used to erase pencil?",
-        "a": "ERASER"
-      },
-      {
-        "q": "You sleep under it?",
-        "a": "BLANKETS"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "Has pages and a spine?",
-        "a": "NOVELS"
-      },
-      {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
-      }
-    ],
-    [
-      {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
-      },
-      {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
-      },
-      {
-        "q": "Keeps your head safe?",
-        "a": "HEADGEAR"
-      }
-    ],
-    [
-      {
-        "q": "You wear them on feet?",
-        "a": "SHOE"
-      },
-      {
-        "q": "You wear it in winter?",
-        "a": "JACKET"
-      },
-      {
-        "q": "Used to carry things?",
-        "a": "BACKPACK"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
-      },
-      {
-        "q": "Round object in space?",
-        "a": "PLANET"
-      },
-      {
-        "q": "It flies to space?",
-        "a": "SPACESHIP"
-      }
-    ],
-    [
-      {
-        "q": "Opposite of cold?",
-        "a": "WARM"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "COLORS"
-      },
-      {
-        "q": "A tool to see stars?",
-        "a": "TELESCOP"
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
       }
     ],
     [
       {
         "q": "What shines in the day?",
-        "a": "STAR"
+        "a": "SUNS"
       },
       {
-        "q": "A sticky substance?",
-        "a": "GLUE"
+        "q": "A doctor's building?",
+        "a": "CLINIC"
       },
       {
-        "q": "You use it to call?",
-        "a": "CELLULAR"
+        "q": "It flies to space?",
+        "a": "ROCKET"
       }
     ],
     [
       {
-        "q": "It has leaves and bark?",
-        "a": "TREE"
+        "q": "It swims in water?",
+        "a": "FISH"
       },
       {
-        "q": "It holds your food?",
-        "a": "PLATES"
+        "q": "You use it to type?",
+        "a": "BUTTON"
       },
       {
-        "q": "Used to protect eyes?",
-        "a": "SUNGLASS"
+        "q": "Animal with a trunk?",
+        "a": "ELEPHANT"
       }
     ],
     [
       {
-        "q": "Opposite of bad?",
-        "a": "GOOD"
-      },
-      {
-        "q": "Used to paint?",
-        "a": "BRUSH"
-      },
-      {
-        "q": "Used to cut paper?",
-        "a": "SCISSORS"
-      }
-    ],
-    [
-      {
-        "q": "You wear it on your head?",
-        "a": "HATS"
+        "q": "Meow animal?",
+        "a": "CATS"
       },
       {
         "q": "You look through it?",
         "a": "WINDOW"
       },
       {
-        "q": "Worn on your wrist?",
-        "a": "BRACELET"
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
       }
     ],
     [
@@ -5538,22 +4880,78 @@
         "a": "BOOK"
       },
       {
-        "q": "Keeps you dry in rain?",
-        "a": "PONCHO"
+        "q": "Used to paint?",
+        "a": "COLORS"
       },
       {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
       }
     ],
     [
       {
-        "q": "What body part do you use to smell?",
-        "a": "NOSE"
+        "q": "Opposite of bad?",
+        "a": "GOOD"
       },
       {
         "q": "A place to learn?",
         "a": "SCHOOL"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "It holds your food?",
+        "a": "PLATES"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "BOUTIQUE"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Keeps you dry in rain?",
+        "a": "PONCHO"
       },
       {
         "q": "Used to browse the web?",
@@ -5562,16 +4960,100 @@
     ],
     [
       {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
       },
       {
         "q": "A sticky substance?",
-        "a": "GLUE"
+        "a": "CEMENT"
       },
       {
-        "q": "A musical instrument?",
-        "a": "KEYBOARD"
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A huge body of water?",
+        "a": "SEASCAPE"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "Orange vegetable?",
+        "a": "CARROT"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "Holds your pants up?",
+        "a": "BUCKLE"
+      },
+      {
+        "q": "Worn on your wrist?",
+        "a": "BRACELET"
       }
     ],
     [
@@ -5584,14 +5066,14 @@
         "a": "NOVELS"
       },
       {
-        "q": "Used for computing?",
-        "a": "COMPUTER"
+        "q": "You use it to call?",
+        "a": "CELLULAR"
       }
     ],
     [
       {
-        "q": "What barks?",
-        "a": "DOGS"
+        "q": "Opposite of bad?",
+        "a": "GOOD"
       },
       {
         "q": "A sticky substance?",
@@ -5604,16 +5086,534 @@
     ],
     [
       {
-        "q": "Four wheeled vehicle?",
-        "a": "CARS"
+        "q": "What falls in winter?",
+        "a": "SNOW"
       },
       {
-        "q": "It grows on your head?",
-        "a": "HAIR"
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "Used to erase pencil?",
+        "a": "ERASER"
       },
       {
         "q": "Used to take photos?",
         "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A place to learn?",
+        "a": "SCHOOL"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "Used to carry things?",
+        "a": "BACKPACK"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Used to write notes?",
+        "a": "NOTEBOOK"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "ROCKET"
+      }
+    ],
+    [
+      {
+        "q": "It tells time?",
+        "a": "TIME"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "You watch movies on?",
+        "a": "TELEVISE"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "Keeps your head safe?",
+        "a": "HEADGEAR"
+      }
+    ],
+    [
+      {
+        "q": "You wear it on your head?",
+        "a": "HATS"
+      },
+      {
+        "q": "It grows on heads?",
+        "a": "STRAND"
+      },
+      {
+        "q": "Used to take photos?",
+        "a": "POLAROID"
+      }
+    ],
+    [
+      {
+        "q": "You wear them on feet?",
+        "a": "SHOE"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "You wear it on your head?",
+        "a": "HATS"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A tall structure?",
+        "a": "BUILDING"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What body part do you use to smell?",
+        "a": "NOSE"
+      },
+      {
+        "q": "Used to paint?",
+        "a": "COLORS"
+      },
+      {
+        "q": "A sweet baked good?",
+        "a": "BROWNIES"
+      }
+    ],
+    [
+      {
+        "q": "You wear them on feet?",
+        "a": "SHOE"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "It has leaves and bark?",
+        "a": "TREE"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "CEMENT"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "You drink water from?",
+        "a": "BOTTLE"
+      },
+      {
+        "q": "You use it to call?",
+        "a": "CELLULAR"
+      }
+    ],
+    [
+      {
+        "q": "It flies in the sky?",
+        "a": "BIRD"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "It has leaves and bark?",
+        "a": "TREE"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used to browse the web?",
+        "a": "INTERNET"
+      }
+    ],
+    [
+      {
+        "q": "What shines in the day?",
+        "a": "SUNS"
+      },
+      {
+        "q": "You chew it?",
+        "a": "BUBBLE"
+      },
+      {
+        "q": "Used for computing?",
+        "a": "COMPUTER"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of cold?",
+        "a": "WARM"
+      },
+      {
+        "q": "You use it to type?",
+        "a": "BUTTON"
+      },
+      {
+        "q": "Used to protect eyes?",
+        "a": "SUNGLASS"
+      }
+    ],
+    [
+      {
+        "q": "You wear them on feet?",
+        "a": "SHOE"
+      },
+      {
+        "q": "A sticky substance?",
+        "a": "GLUE"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
+      }
+    ],
+    [
+      {
+        "q": "Meow animal?",
+        "a": "CATS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "What do you read?",
+        "a": "BOOK"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "Used to cut paper?",
+        "a": "SCISSORS"
+      }
+    ],
+    [
+      {
+        "q": "Opposite of bad?",
+        "a": "GOOD"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What barks?",
+        "a": "DOGS"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "A musical instrument?",
+        "a": "KEYBOARD"
+      }
+    ],
+    [
+      {
+        "q": "It tells time?",
+        "a": "TIME"
+      },
+      {
+        "q": "Round object in space?",
+        "a": "PLANET"
+      },
+      {
+        "q": "A place to buy food?",
+        "a": "GROCER"
+      }
+    ],
+    [
+      {
+        "q": "You wear it on your head?",
+        "a": "HATS"
+      },
+      {
+        "q": "You look through it?",
+        "a": "WINDOW"
+      },
+      {
+        "q": "You sleep under it?",
+        "a": "BLANKETS"
+      }
+    ],
+    [
+      {
+        "q": "What falls in winter?",
+        "a": "SNOW"
+      },
+      {
+        "q": "You wear it in winter?",
+        "a": "JACKET"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "You wear it on your head?",
+        "a": "HATS"
+      },
+      {
+        "q": "Has pages and a spine?",
+        "a": "NOVELS"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "STARSHIP"
+      }
+    ],
+    [
+      {
+        "q": "It swims in water?",
+        "a": "FISH"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "It flies to space?",
+        "a": "SPACESHIP"
+      }
+    ],
+    [
+      {
+        "q": "You wear it on your head?",
+        "a": "HATS"
+      },
+      {
+        "q": "Yellow fruit for monkeys?",
+        "a": "BANANA"
+      },
+      {
+        "q": "A tool to see stars?",
+        "a": "TELESCOP"
       }
     ]
   ]

@@ -452,7 +452,7 @@ function winGame() {
         if (carBtns) carBtns.style.display = 'none';
         if (regBtns) regBtns.style.display = 'flex';
         
-        if (isFinalPuzzle && bingeCount === 0) {
+        if (isFinalPuzzle) {
             dom.btnNextPuzzle.style.display = 'none';
             dom.btnInstall.style.display = 'flex';
             dom.btnBinge.style.display = 'flex';

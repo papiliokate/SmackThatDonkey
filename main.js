@@ -452,7 +452,7 @@ function winGame() {
         if (carBtns) carBtns.style.display = 'none';
         if (regBtns) regBtns.style.display = 'flex';
         
-        if (isFinalPuzzle) {
+        if (isFinalPuzzle && bingeCount === 0) {
             dom.btnNextPuzzle.style.display = 'none';
             dom.btnInstall.style.display = 'flex';
             dom.btnBinge.style.display = 'flex';
@@ -461,6 +461,11 @@ function winGame() {
             dom.btnHub.style.display = 'flex';
         } else {
             dom.btnNextPuzzle.style.display = 'flex';
+            if (isFinalPuzzle && bingeCount > 0) {
+                dom.btnNextPuzzle.textContent = `🎟️ Play Binge Puzzle (${bingeCount} left)`;
+            } else {
+                dom.btnNextPuzzle.textContent = `➡️ Next Puzzle`;
+            }
             dom.btnShare.style.display = 'flex';
             dom.btnHub.style.display = 'flex';
             dom.btnInstall.style.display = 'none';

@@ -118,17 +118,14 @@ function generateSmackThatPuzzles() {
     for (let p1 of q4) {
         for (let p2 of q6) {
             for (let p3 of q8) {
-                if (combinations.length < 400) {
-                    combinations.push([p1, p2, p3]);
-                } else {
-                    break;
-                }
+                combinations.push([p1, p2, p3]);
             }
         }
     }
     
-    // Shuffle
+    // Shuffle all combinations and pick 400
     combinations.sort(() => Math.random() - 0.5);
+    combinations = combinations.slice(0, 400);
 
     const outPath = path.resolve('./public/puzzles_db.json');
     if (!fs.existsSync(path.dirname(outPath))) {

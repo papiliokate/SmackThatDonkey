@@ -2,8 +2,11 @@ import confetti from 'canvas-confetti';
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
 import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
 
+const urlParams = new URLSearchParams(window.location.search);
+const isStreamMode = urlParams.get('stream') === 'true';
+
 let analytics;
-if (import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
+if (!isStreamMode && import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
   try {
     const firebaseConfig = {
       apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -17,6 +20,9 @@ if (import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
     const app = initializeApp(firebaseConfig);
     analytics = getAnalytics(app);
     logEvent(analytics, 'session_start');
+    if (urlParams.get('mode') === 'embed') {
+        logEvent(analytics, 'embed_visit');
+    }
   } catch (e) {
     console.warn("Analytics error:", e);
   }
@@ -176,7 +182,6 @@ function updateBingeUI() {
 updateBingeUI();
 
 // Auto-play logic handling
-const urlParams = new URLSearchParams(window.location.search);
 const autoplay = urlParams.get('autoplay');
 
 let puzzlePool = [];
@@ -188,12 +193,19 @@ async function fetchPuzzleData() {
         if (!response.ok) throw new Error("HTTP error " + response.status);
         const data = await response.json();
         const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
+        const isEmbed = new URLSearchParams(window.location.search).get('mode') === 'embed';
+        
         if (isCarousel) {
             const bonusPool6 = [
                  { q: "A highly intelligent person?", a: "GENIUS" },
                  { q: "Someone in charge or highly skilled?", a: "MASTER" }
             ];
             state.dailyPuzzles = [bonusPool6[Math.floor(Math.random() * bonusPool6.length)]];
+        } else if (isEmbed) {
+            const sixLetterPuzzle = data.puzzles.find(p => p.a.length === 6) || data.puzzles[1];
+            state.dailyPuzzles = sixLetterPuzzle ? [sixLetterPuzzle] : data.puzzles;
+        } else if (isStreamMode) {
+            state.dailyPuzzles = [{ q: "", a: "123456" }];
         } else {
             state.dailyPuzzles = data.puzzles;
         }
@@ -210,10 +222,94 @@ async function fetchPuzzleData() {
 }
 
 async function initGame() {
+    if (isStreamMode) {
+        document.body.classList.add('stream-mode');
+    }
     await fetchPuzzleData();
     state.isBingeMode = false;
     renderPuzzleBoard();
 }
+
+let smackQueue = [];
+let isSmacking = false;
+
+function processSmackQueue() {
+    if (smackQueue.length === 0) {
+        isSmacking = false;
+        
+        // Return cursor to center when done
+        const cursor = document.getElementById('custom-cursor');
+        if (cursor) {
+            cursor.style.left = (window.innerWidth / 2) + 'px';
+            cursor.style.top = (window.innerHeight - 100) + 'px';
+        }
+        return;
+    }
+    
+    isSmacking = true;
+    const donkey = smackQueue.shift();
+    
+    // Ensure cursor is visible
+    const cursor = document.getElementById('custom-cursor');
+    const rect = donkey.getBoundingClientRect();
+    const x = rect.left + rect.width / 2;
+    const y = rect.top + rect.height / 2;
+    
+    if (cursor) {
+        cursor.style.display = 'block';
+        cursor.style.transition = 'left 0.15s ease-out, top 0.15s ease-out';
+        cursor.style.left = x + 'px';
+        cursor.style.top = y + 'px';
+    }
+    
+    // Wait for hand to arrive
+    setTimeout(() => {
+        document.body.classList.add('slapping');
+        playAudio(audio.smack);
+        playAudio(audio.donkey);
+        
+        donkey.classList.remove('smacked');
+        void donkey.offsetWidth;
+        donkey.classList.add('smacked');
+        
+        confetti({
+            particleCount: 15,
+            spread: 50,
+            origin: { x: x / window.innerWidth, y: y / window.innerHeight },
+            colors: ['#fff', '#ffd166', '#c34b4b'],
+            disableForReducedMotion: true,
+            zIndex: 100
+        });
+        
+        // Recover from slap
+        setTimeout(() => {
+            document.body.classList.remove('slapping');
+            // Wait before next target
+            setTimeout(processSmackQueue, 50);
+        }, 80);
+        
+    }, 150);
+}
+
+function smackAllDonkeys() {
+    const donkeys = Array.from(document.querySelectorAll('.donkey'));
+    if (!donkeys.length) return;
+    
+    // Randomize the order for chaotic fun
+    donkeys.sort(() => Math.random() - 0.5);
+    smackQueue.push(...donkeys);
+    
+    if (!isSmacking) {
+        processSmackQueue();
+    }
+}
+
+window.addEventListener('keydown', (e) => {
+    if (isStreamMode && e.code === 'Space') {
+        e.preventDefault();
+        smackAllDonkeys();
+    }
+});
 
 function renderPuzzleBoard() {
     if (state.currentPuzzleIndex >= state.dailyPuzzles.length) {
@@ -364,7 +460,11 @@ function setToPhase1() {
     
     stopAudio(audio.whoop);
     stopAudio(audio.applause);
-    playAudio(audio.barnyard);
+    
+    const isEmbed = new URLSearchParams(window.location.search).get('mode') === 'embed';
+    if (!isEmbed) {
+        playAudio(audio.barnyard);
+    }
     
     dom.smackBtn.style.visibility = 'visible';
     dom.timerContainer.classList.remove('active');
@@ -426,12 +526,21 @@ function winGame() {
     
     if (analytics) logEvent(analytics, 'level_complete', { level: state.currentPuzzleIndex + 1 });
 
+    const isEmbed = urlParams.get('mode') === 'embed';
     const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
     const regBtns = document.getElementById('regular-win-btns');
     const carBtns = document.getElementById('carousel-btns');
+    const embedBtns = document.getElementById('embed-btns');
     
-    if (isCarousel) {
+    if (isEmbed) {
         if (regBtns) regBtns.style.display = 'none';
+        if (carBtns) carBtns.style.display = 'none';
+        if (embedBtns) embedBtns.style.display = 'flex';
+        document.getElementById('win-title').innerText = "Level 1 Complete!";
+        document.getElementById('win-cypher').style.display = 'none';
+    } else if (isCarousel) {
+        if (regBtns) regBtns.style.display = 'none';
+        if (embedBtns) embedBtns.style.display = 'none';
         if (carBtns) carBtns.style.display = 'flex';
         
         let playedGames = urlParams.get('played') ? urlParams.get('played').split(',').filter(Boolean) : [];
@@ -450,6 +559,7 @@ function winGame() {
             }).catch(console.warn);
     } else {
         if (carBtns) carBtns.style.display = 'none';
+        if (embedBtns) embedBtns.style.display = 'none';
         if (regBtns) regBtns.style.display = 'flex';
         
         if (isFinalPuzzle && bingeCount === 0) {
@@ -582,6 +692,11 @@ dom.btnBinge.addEventListener('click', () => {
 
 dom.btnHub.addEventListener('click', () => {
     if (analytics) logEvent(analytics, 'hub_clicked');
+});
+
+document.getElementById('btn-embed-hook')?.addEventListener('click', () => {
+    if (analytics) logEvent(analytics, 'embed_hook_clicked');
+    window.open('https://oops-games-hub.web.app/', '_blank');
 });
 
 // Carousel Logic

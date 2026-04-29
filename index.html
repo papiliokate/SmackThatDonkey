@@ -367,11 +367,66 @@
       .message-toast.show {
         transform: translate(-50%, -50%) scale(1);
       }
+
+      /* Stream Mode Overrides */
+      body.stream-mode .header-actions,
+      body.stream-mode #timer-container,
+      body.stream-mode #controls,
+      body.stream-mode #trivia-question,
+      body.stream-mode #hay-bales {
+        display: none !important;
+      }
+      body.stream-mode header {
+        display: none !important;
+      }
+      
+      #stream-header {
+        display: none;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        z-index: 10;
+        position: relative;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.8);
+      }
+      
+      body.stream-mode #stream-header {
+        display: block;
+      }
+      
+      #stream-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        color: #F8F9FA;
+      }
+      
+      #stream-header h2 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: #FFD166;
+        margin: 0;
+        text-transform: uppercase;
+        animation: pulseText 2s infinite;
+      }
+
+      @keyframes pulseText {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+      }
+
     </style>
   </head>
   <body>
     <div id="custom-cursor" class="fallback"></div>
     <div id="game-container">
+    
+    <div id="stream-header">
+        <h1>oops-game.com presents 'Smack That'</h1>
+        <h2>type 'smack' in chat to Smack That!!!</h2>
+    </div>
+
     <header>
       <h1>Smack that...</h1>
       <div class="header-actions">
@@ -425,6 +480,10 @@
           <button class="modal-btn btn-next" id="carousel-play-next" style="background: #38bdf8; color: white;">➡️ Play the next game</button>
           <button class="modal-btn btn-share" id="carousel-share" style="display:none; background: #38bdf8; color: white;">📤 Share for another ride</button>
           <button class="modal-btn btn-binge" id="carousel-binge" style="background: #e91e63; color: white;">🎟️ Binge this game ($0.99)</button>
+        </div>
+        <div class="modal-btns" id="embed-btns" style="display:none;">
+          <p id="embed-hook-text" style="font-size: 1.2rem; margin-bottom: 15px; color: #333; font-weight: 600;">You survived Level 1! Only 4% of players beat Level 2.</p>
+          <button class="modal-btn btn-binge" id="btn-embed-hook" style="background: #e91e63; color: white; width: 100%; font-size: 1.3rem; padding: 15px;">🚀 Play Full Game on Oops-Games</button>
         </div>
         <p id="win-cypher" style="font-size: 1.5rem; font-family: monospace; letter-spacing: 4px; color: #333; margin: 15px auto; font-weight: bold; background: #eee; padding: 10px; border-radius: 10px; border: 2px dashed #ccc; width: fit-content;"></p>
       </div>

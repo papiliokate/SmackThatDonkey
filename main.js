@@ -87,11 +87,11 @@ function getDailyCypher(gameIndex) {
 
 // Audio Framework (Ready for MP3 drops)
 const audio = {
-    donkey: new Audio('/audio/donkey.ogg'),
-    whoop: new Audio('/audio/whoop.wav'),
-    applause: new Audio('/audio/applause.mp3'),
-    barnyard: new Audio('/audio/barnyard.wav'),
-    smack: new Audio('/audio/smack.wav')
+    donkey: new Audio(import.meta.env.BASE_URL + 'audio/donkey.ogg'),
+    whoop: new Audio(import.meta.env.BASE_URL + 'audio/whoop.wav'),
+    applause: new Audio(import.meta.env.BASE_URL + 'audio/applause.mp3'),
+    barnyard: new Audio(import.meta.env.BASE_URL + 'audio/barnyard.wav'),
+    smack: new Audio(import.meta.env.BASE_URL + 'audio/smack.wav')
 };
 audio.whoop.loop = true;
 audio.barnyard.loop = true;
@@ -189,7 +189,7 @@ let dailyIndex = 0;
 
 async function fetchPuzzleData() {
     try {
-        const response = await fetch('/daily_puzzle.json?v=' + Date.now());
+        const response = await fetch(import.meta.env.BASE_URL + 'daily_puzzle.json?v=' + Date.now());
         if (!response.ok) throw new Error("HTTP error " + response.status);
         const data = await response.json();
         const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';

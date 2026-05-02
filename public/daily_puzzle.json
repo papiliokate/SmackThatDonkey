@@ -1,18 +1,18 @@
 {
-  "date": "2026-05-01",
-  "dailyIndex": 175,
+  "date": "2026-05-02",
+  "dailyIndex": 176,
   "puzzles": [
     {
-      "q": "What body part do you use to smell?",
-      "a": "NOSE"
+      "q": "What shines in the day?",
+      "a": "STAR"
     },
     {
-      "q": "Used to paint?",
-      "a": "COLORS"
+      "q": "You use it to type?",
+      "a": "BUTTON"
     },
     {
-      "q": "Animal with a trunk?",
-      "a": "ELEPHANT"
+      "q": "Used to protect eyes?",
+      "a": "SUNGLASS"
     }
   ],
   "pool": [

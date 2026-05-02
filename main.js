@@ -189,9 +189,18 @@ let dailyIndex = 0;
 
 async function fetchPuzzleData() {
     try {
-        const response = await fetch(import.meta.env.BASE_URL + 'daily_puzzle.json?v=' + Date.now());
+        const response = await fetch(import.meta.env.BASE_URL + 'puzzles_db.json');
         if (!response.ok) throw new Error("HTTP error " + response.status);
-        const data = await response.json();
+        const puzzlesDB = await response.json();
+        
+        const formatter = new Intl.DateTimeFormat('en-CA', { timeZone: 'Pacific/Kiritimati', year: 'numeric', month: '2-digit', day: '2-digit' });
+        const dateStr = formatter.format(new Date());
+        let seed = getSeed(dateStr);
+        let rand = mulberry32(seed);
+        
+        dailyIndex = Math.floor(rand() * puzzlesDB.length);
+        const todayPuzzles = puzzlesDB[dailyIndex];
+
         const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
         const isEmbed = new URLSearchParams(window.location.search).get('mode') === 'embed';
         
@@ -202,22 +211,23 @@ async function fetchPuzzleData() {
             ];
             state.dailyPuzzles = [bonusPool6[Math.floor(Math.random() * bonusPool6.length)]];
         } else if (isEmbed) {
-            const sixLetterPuzzle = data.puzzles.find(p => p.a.length === 6) || data.puzzles[1];
-            state.dailyPuzzles = sixLetterPuzzle ? [sixLetterPuzzle] : data.puzzles;
+            const sixLetterPuzzle = todayPuzzles.find(p => p.a.length === 6) || todayPuzzles[1];
+            state.dailyPuzzles = sixLetterPuzzle ? [sixLetterPuzzle] : todayPuzzles;
         } else if (isStreamMode) {
             state.dailyPuzzles = [{ q: "", a: "123456" }];
         } else {
-            state.dailyPuzzles = data.puzzles;
+            state.dailyPuzzles = todayPuzzles;
         }
-        puzzlePool = data.pool || [];
-        dailyIndex = data.dailyIndex || 0;
+        puzzlePool = puzzlesDB;
     } catch (e) {
-        console.warn("Failed to load daily_puzzle.json, falling back:", e);
+        console.warn("Failed to load puzzles_db.json, falling back:", e);
         state.dailyPuzzles = [
              {q: "What is the bright green color of an emerald?", a: "GREEN"},
              {q: "What curved yellow fruit is famously loved by monkeys?", a: "BANANA"},
              {q: "What massive grey animal has large ears and a long trunk?", a: "ELEPHANT"}
         ];
+        puzzlePool = [state.dailyPuzzles];
+        dailyIndex = 0;
     }
 }
 

@@ -43,6 +43,13 @@ if (urlParams.get('autoplay') === 'split') {
     document.body.appendChild(banner);
 }
 
+let publisherDomain = 'unknown';
+if (document.referrer) {
+    try {
+        publisherDomain = new URL(document.referrer).hostname;
+    } catch(e) {}
+}
+
 let analytics;
 if (!isStreamMode && import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
   try {
@@ -59,7 +66,7 @@ if (!isStreamMode && import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
     analytics = getAnalytics(app);
     logEvent(analytics, 'session_start');
     if (urlParams.get('mode') === 'embed') {
-        logEvent(analytics, 'embed_visit');
+        logEvent(analytics, 'embed_visit', { publisher_domain: publisherDomain });
     }
   } catch (e) {
     console.warn("Analytics error:", e);
@@ -582,7 +589,11 @@ function winGame() {
     // Evaluate Progress Context
     const isFinalPuzzle = state.currentPuzzleIndex >= (state.dailyPuzzles.length - 1);
     
-    if (analytics) logEvent(analytics, 'level_complete', { level: state.currentPuzzleIndex + 1 });
+    if (analytics) {
+        let eventParams = { level: state.currentPuzzleIndex + 1 };
+        if (urlParams.get('mode') === 'embed') eventParams.publisher_domain = publisherDomain;
+        logEvent(analytics, 'level_complete', eventParams);
+    }
 
     const isEmbed = urlParams.get('mode') === 'embed';
     const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';

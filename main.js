@@ -907,6 +907,7 @@ function simulateAutoplay() {
     
     function clickAnimated(node) {
         if (!node) return;
+        node.classList.add('targeted');
         const rect = node.getBoundingClientRect();
         const x = rect.left + rect.width / 2;
         const y = rect.top + rect.height / 2;
@@ -948,7 +949,7 @@ function simulateAutoplay() {
             if (autoplay === 'fail') {
                 // Click a totally wrong letter to fail the sequence!
                 setTimeout(() => {
-                    const wrongTarget = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter !== state.letters[0]);
+                    const wrongTarget = Array.from(document.querySelectorAll('.donkey:not(.selected):not(.targeted)')).find(d => d.dataset.letter !== state.letters[0]);
                     clickAnimated(wrongTarget);
                 }, answerTime);
                 
@@ -961,7 +962,7 @@ function simulateAutoplay() {
                 for (let i = 0; i < state.letters.length - 1; i++) {
                     const letter = state.letters[i];
                     setTimeout(() => {
-                        const target = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter === letter);
+                        const target = Array.from(document.querySelectorAll('.donkey:not(.selected):not(.targeted)')).find(d => d.dataset.letter === letter);
                         clickAnimated(target);
                     }, answerTime);
                     answerTime += 800;
@@ -974,7 +975,7 @@ function simulateAutoplay() {
                 // Standard & Split: Click ALL correctly
                 state.letters.forEach(letter => {
                     setTimeout(() => {
-                        const target = Array.from(document.querySelectorAll('.donkey:not(.selected)')).find(d => d.dataset.letter === letter);
+                        const target = Array.from(document.querySelectorAll('.donkey:not(.selected):not(.targeted)')).find(d => d.dataset.letter === letter);
                         clickAnimated(target);
                     }, answerTime);
                     answerTime += 800 / speedMultiplier; 

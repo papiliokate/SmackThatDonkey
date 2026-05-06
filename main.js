@@ -618,7 +618,7 @@ function winGame() {
         const playNextBtn = document.getElementById('carousel-play-next');
         const shareBtn = document.getElementById('carousel-share');
         
-        fetch('https://oops-games-hub.web.app/carousel_config.json')
+        fetch('https://oops-games.com/carousel_config.json')
             .then(res => res.json())
             .then(configList => {
                 if (playedGames.length >= configList.length) {
@@ -756,7 +756,7 @@ dom.btnBingePlay.addEventListener('click', () => {
 
 dom.btnBinge.addEventListener('click', () => {
     if (analytics) logEvent(analytics, 'binge_presale_click');
-    window.location.href = 'https://oops-games-hub.web.app/presale.html';
+    window.location.href = 'https://oops-games.com/presale.html';
 });
 
 dom.btnHub.addEventListener('click', () => {
@@ -765,7 +765,7 @@ dom.btnHub.addEventListener('click', () => {
 
 document.getElementById('btn-embed-hook')?.addEventListener('click', () => {
     if (analytics) logEvent(analytics, 'embed_hook_clicked');
-    window.open('https://oops-games-hub.web.app/', '_blank');
+    window.open('https://oops-games.com/', '_blank');
 });
 
 // Carousel Logic
@@ -804,17 +804,17 @@ const advanceCarousel = async (isAnotherRide = false) => {
     }
     
     try {
-        const res = await fetch('https://oops-games-hub.web.app/carousel_config.json');
+        const res = await fetch('https://oops-games.com/carousel_config.json');
         const configList = await res.json();
         const unplayed = configList.filter(g => !currentPlayed.includes(g.id));
         if (unplayed.length > 0) {
             const nextGame = unplayed[Math.floor(Math.random() * unplayed.length)];
             window.location.href = `${nextGame.url}?carousel=true&played=${currentPlayed.join(',')}`;
         } else {
-            window.location.href = 'https://oops-games-hub.web.app/';
+            window.location.href = 'https://oops-games.com/';
         }
     } catch(e) {
-        window.location.href = 'https://oops-games-hub.web.app/';
+        window.location.href = 'https://oops-games.com/';
     }
 };
 
@@ -825,7 +825,7 @@ document.getElementById("carousel-binge")?.addEventListener("click", () => {
     if (analytics) logEvent(analytics, 'binge_presale_click');
     let playedGames = playedGamesStr ? playedGamesStr.split(',').filter(Boolean) : [];
     if (!playedGames.includes('ST')) playedGames.push('ST');
-    window.location.href = 'https://oops-games-hub.web.app/presale.html?carousel=true&played=' + playedGames.join(',') + '&returnUrl=' + encodeURIComponent(window.location.href);
+    window.location.href = 'https://oops-games.com/presale.html?carousel=true&played=' + playedGames.join(',') + '&returnUrl=' + encodeURIComponent(window.location.href);
 });
 
 document.getElementById("carousel-share")?.addEventListener("click", async () => {

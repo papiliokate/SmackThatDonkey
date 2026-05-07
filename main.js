@@ -4,6 +4,7 @@ import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.9.
 
 const urlParams = new URLSearchParams(window.location.search);
 const isStreamMode = urlParams.get('stream') === 'true';
+const isCaptcha = urlParams.get('mode') === 'captcha';
 
 if (urlParams.get('autoplay') === 'split') {
     const asmrFile = urlParams.get('asmr');
@@ -130,6 +131,24 @@ function getDailyCypher(gameIndex) {
     return result[gameIndex];
 }
 
+const parentCtx = window.parent.audioCtx || new AudioContext();
+const parentDest = window.parent.mediaDest || parentCtx.createMediaStreamDestination();
+window.audioCtx = parentCtx;
+window.mediaDest = parentDest;
+
+const originalAudioPlay = window.Audio.prototype.play;
+window.Audio.prototype.play = function() {
+    if (!this._routed) {
+        try {
+            const source = window.audioCtx.createMediaElementSource(this);
+            source.connect(window.audioCtx.destination);
+            source.connect(window.mediaDest);
+            this._routed = true;
+        } catch(e) {}
+    }
+    return originalAudioPlay.apply(this, arguments);
+};
+
 // Audio Framework (Ready for MP3 drops)
 const audio = {
     donkey: new Audio(import.meta.env.BASE_URL + 'audio/donkey.ogg'),
@@ -154,6 +173,26 @@ const stopAudio = (audioNode) => {
     if (!audioNode) return;
     audioNode.pause();
     audioNode.currentTime = 0;
+};
+
+const fadeOutAudio = (audioNode, duration = 1000) => {
+    if (!audioNode) return;
+    const initialVolume = audioNode.volume;
+    const steps = 20;
+    const volumeStep = initialVolume / steps;
+    const intervalTime = duration / steps;
+    
+    const fadeInterval = setInterval(() => {
+        if (audioNode.volume > volumeStep) {
+            audioNode.volume -= volumeStep;
+        } else {
+            audioNode.volume = 0;
+            clearInterval(fadeInterval);
+            audioNode.pause();
+            audioNode.currentTime = 0;
+            audioNode.volume = initialVolume;
+        }
+    }, intervalTime);
 };
 
 // Hard Canvas Rescale Engine
@@ -259,7 +298,17 @@ async function fetchPuzzleData() {
         const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
         const isEmbed = new URLSearchParams(window.location.search).get('mode') === 'embed';
         
-        if (isCarousel) {
+        if (isCaptcha) {
+            const shapes = [
+                '<svg viewBox="0 0 100 100" class="svg-shape"><rect x="15" y="15" width="70" height="70" rx="15" fill="#3b82f6"/></svg>',
+                '<svg viewBox="0 0 100 100" class="svg-shape"><circle cx="50" cy="50" r="35" fill="#ef4444"/></svg>',
+                '<svg viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 61,35 85,35 66,50 73,75 50,60 27,75 34,50 15,35 39,35" fill="#eab308"/></svg>',
+                '<svg viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 85,80 15,80" fill="#22c55e"/></svg>',
+                '<svg viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 85,50 50,85 15,50" fill="#f97316"/></svg>'
+            ];
+            const shuffledShapes = [...shapes].sort(() => Math.random() - 0.5).slice(0, 4);
+            state.dailyPuzzles = [{ q: shuffledShapes.join(' '), a: shuffledShapes }];
+        } else if (isCarousel) {
             const bonusPool6 = [
                  { q: "A highly intelligent person?", a: "GENIUS" },
                  { q: "Someone in charge or highly skilled?", a: "MASTER" }
@@ -289,6 +338,11 @@ async function fetchPuzzleData() {
 async function initGame() {
     if (isStreamMode) {
         document.body.classList.add('stream-mode');
+    }
+    if (isCaptcha) {
+        document.body.classList.add('captcha-mode');
+        // Reset or set captcha start time
+        state.captchaStartTime = Date.now();
     }
     await fetchPuzzleData();
     state.isBingeMode = false;
@@ -383,14 +437,23 @@ function renderPuzzleBoard() {
     
     const currentData = state.dailyPuzzles[state.currentPuzzleIndex];
     const prefix = state.isBingeMode ? "Binge Puzzle" : "Daily Puzzle";
-    state.question = `${prefix} ${state.currentPuzzleIndex + 1}: ${currentData.q}`;
+    if (isCaptcha) {
+        state.question = `Smack That...in This Order<div class="captcha-shapes-container">${currentData.q}</div>`;
+    } else {
+        state.question = `${prefix} ${state.currentPuzzleIndex + 1}: ${currentData.q}`;
+    }
     state.answer = currentData.a;
 
     // Basic setup for exact letters
-    state.letters = state.answer.split('');
+    state.letters = Array.from(state.answer);
     const shuffledLetters = [...state.letters].sort(() => Math.random() - 0.5);
     
-    dom.trivia.textContent = state.question;
+    if (isCaptcha) {
+        dom.trivia.innerHTML = state.question;
+    } else {
+        dom.trivia.textContent = state.question;
+    }
+    
     dom.board.innerHTML = '';
     dom.hayBales.innerHTML = '';
     
@@ -419,7 +482,11 @@ function renderPuzzleBoard() {
         
         const letterSpan = document.createElement('span');
         letterSpan.className = 'letter';
-        letterSpan.textContent = letter;
+        if (isCaptcha) {
+            letterSpan.innerHTML = letter;
+        } else {
+            letterSpan.textContent = letter;
+        }
         
         donkey.appendChild(letterSpan);
         
@@ -434,8 +501,12 @@ function renderPuzzleBoard() {
         dom.hayBales.appendChild(bale);
     });
 
-    // Reset phase 1
-    setToPhase1();
+    if (isCaptcha) {
+        setToPhase2(); // Skip phase 1 for frictionless captcha
+    } else {
+        // Reset phase 1
+        setToPhase1();
+    }
 }
 
 function handleDonkeyClick(e, element, letter) {
@@ -482,9 +553,13 @@ function updateHayBales() {
     const bales = dom.hayBales.querySelectorAll('.hay-bale');
     bales.forEach((bale, i) => {
         if (state.selectedLetters[i]) {
-            bale.textContent = state.selectedLetters[i];
+            if (isCaptcha) {
+                bale.innerHTML = state.selectedLetters[i];
+            } else {
+                bale.textContent = state.selectedLetters[i];
+            }
         } else {
-            bale.textContent = '';
+            bale.innerHTML = '';
         }
     });
 }
@@ -495,12 +570,11 @@ function checkProgress(element) {
     // Check if the current letter matches the intended answer's letter at the same position
     if (state.selectedLetters[currentIndex] !== state.letters[currentIndex]) {
         // Wrong letter picked - play error animation and pop the letter, but NO loss state.
-        state.selectedLetters.pop();
+        state.selectedLetters = [];
         
-        // Remove 'selected' from the exact element we just clicked, bypassing DOM ordering issues
-        if (element) {
-            element.classList.remove('selected');
-        }
+        // Remove 'selected' from all elements to restart current puzzle smoothly
+        const allDonkeys = Array.from(document.querySelectorAll('.donkey'));
+        allDonkeys.forEach(d => d.classList.remove('selected'));
         
         // Show visual error
         dom.lossToast.textContent = "Oops! Not that one!";
@@ -549,7 +623,9 @@ function setToPhase2() {
     updateHayBales();
     
     stopAudio(audio.barnyard);
-    playAudio(audio.whoop);
+    if (!isCaptcha) {
+        playAudio(audio.whoop);
+    }
     
     dom.smackBtn.style.visibility = 'hidden';
     dom.timerContainer.classList.add('active');
@@ -582,6 +658,18 @@ function winGame() {
         spread: 100,
         origin: { y: 0.3 }
     });
+
+    if (isCaptcha) {
+        setTimeout(() => fadeOutAudio(audio.applause, 1000), 1000);
+        setTimeout(() => {
+            window.parent.postMessage({
+                type: 'oops_captcha_solved',
+                solveTimeMs: Date.now() - state.captchaStartTime,
+                telemetry: []
+            }, '*');
+        }, 1000);
+        return;
+    }
     
     dom.winTime.textContent = `Time: ${finalTime}`;
     document.getElementById('win-cypher').textContent = getDailyCypher(2); // SmackThatDonkey is game 2
@@ -878,7 +966,7 @@ document.getElementById('btn-close-ios-modal').addEventListener('click', () => {
 });
 
 dom.btnShare.addEventListener('click', () => {
-    const text = `🫏 Smack That... \nPuzzle #${state.currentPuzzleIndex + 1} in ${dom.timerContainer.textContent}!\n\nPlay free at https://smack-that-donkey.web.app`;
+    const text = `🫏 Smack That... \nPuzzle #${state.currentPuzzleIndex + 1} in ${dom.timerContainer.textContent}!\n\nPlay free at https://oops-games.com/smack-that-donkey/`;
     
     if (navigator.share) {
         navigator.share({ title: 'Smack That...', text: text }).then(() => {
@@ -926,21 +1014,38 @@ function simulateAutoplay() {
         }, 250);
     }
 
+    if (isCaptcha) {
+        setTimeout(() => {
+            let answerTime = 200 / speedMultiplier;
+            state.letters.forEach(letter => {
+                setTimeout(() => {
+                    const target = Array.from(document.querySelectorAll('.donkey:not(.selected):not(.targeted)')).find(d => d.dataset.letter === letter);
+                    clickAnimated(target);
+                }, answerTime);
+                answerTime += 600 / speedMultiplier; 
+            });
+        }, 500);
+        return;
+    }
+
     setTimeout(() => {
         // Phase 1 clicks
         const donkeys = document.querySelectorAll('.donkey');
         let clickTime = 1000 / speedMultiplier;
-        donkeys.forEach(node => {
-            setTimeout(() => {
-                clickAnimated(node);
-            }, clickTime);
-            clickTime += 1200 / speedMultiplier;
-        });
+        
+        if (!isCaptcha) {
+            donkeys.forEach(node => {
+                setTimeout(() => {
+                    clickAnimated(node);
+                }, clickTime);
+                clickTime += 1200 / speedMultiplier;
+            });
 
-        // Click Smack Down
-        setTimeout(() => {
-            clickAnimated(dom.smackBtn);
-        }, clickTime + (1000 / speedMultiplier));
+            // Click Smack Down
+            setTimeout(() => {
+                clickAnimated(dom.smackBtn);
+            }, clickTime + (1000 / speedMultiplier));
+        }
 
         // Click correctly in order
         setTimeout(() => {

@@ -131,8 +131,14 @@ function getDailyCypher(gameIndex) {
     return result[gameIndex];
 }
 
-const parentCtx = window.parent.audioCtx || new AudioContext();
-const parentDest = window.parent.mediaDest || parentCtx.createMediaStreamDestination();
+let parentCtx = null;
+let parentDest = null;
+if (autoplayMode) {
+    parentCtx = window.parent.audioCtx;
+    parentDest = window.parent.mediaDest;
+}
+parentCtx = parentCtx || new AudioContext();
+parentDest = parentDest || parentCtx.createMediaStreamDestination();
 window.audioCtx = parentCtx;
 window.mediaDest = parentDest;
 
@@ -300,11 +306,11 @@ async function fetchPuzzleData() {
         
         if (isCaptcha) {
             const shapes = [
-                '<svg viewBox="0 0 100 100" class="svg-shape"><rect x="15" y="15" width="70" height="70" rx="15" fill="#3b82f6"/></svg>',
-                '<svg viewBox="0 0 100 100" class="svg-shape"><circle cx="50" cy="50" r="35" fill="#ef4444"/></svg>',
-                '<svg viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 61,35 85,35 66,50 73,75 50,60 27,75 34,50 15,35 39,35" fill="#eab308"/></svg>',
-                '<svg viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 85,80 15,80" fill="#22c55e"/></svg>',
-                '<svg viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 85,50 50,85 15,50" fill="#f97316"/></svg>'
+                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><rect x="15" y="15" width="70" height="70" rx="15" fill="#3b82f6"/></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><circle cx="50" cy="50" r="35" fill="#ef4444"/></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 61,35 85,35 66,50 73,75 50,60 27,75 34,50 15,35 39,35" fill="#eab308"/></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 85,80 15,80" fill="#22c55e"/></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 85,50 50,85 15,50" fill="#f97316"/></svg>'
             ];
             const shuffledShapes = [...shapes].sort(() => Math.random() - 0.5).slice(0, 4);
             state.dailyPuzzles = [{ q: shuffledShapes.join(' '), a: shuffledShapes }];

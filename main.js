@@ -5,6 +5,7 @@ import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.9.
 const urlParams = new URLSearchParams(window.location.search);
 const isStreamMode = urlParams.get('stream') === 'true';
 const isCaptcha = urlParams.get('mode') === 'captcha';
+const autoplayMode = urlParams.get('autoplay');
 
 if (urlParams.get('autoplay') === 'split') {
     const asmrFile = urlParams.get('asmr');

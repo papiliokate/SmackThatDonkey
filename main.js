@@ -4,7 +4,7 @@ import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.9.
 
 const urlParams = new URLSearchParams(window.location.search);
 const isStreamMode = urlParams.get('stream') === 'true';
-const isCaptcha = urlParams.get('mode') === 'captcha';
+
 const autoplayMode = urlParams.get('autoplay');
 
 if (urlParams.get('autoplay') === 'split') {
@@ -67,9 +67,7 @@ if (!isStreamMode && import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
     const app = initializeApp(firebaseConfig);
     analytics = getAnalytics(app);
     logEvent(analytics, 'session_start');
-    if (urlParams.get('mode') === 'embed') {
-        logEvent(analytics, 'embed_visit', { publisher_domain: publisherDomain });
-    }
+
   } catch (e) {
     console.warn("Analytics error:", e);
   }
@@ -303,27 +301,12 @@ async function fetchPuzzleData() {
         const todayPuzzles = puzzlesDB[dailyIndex];
 
         const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
-        const isEmbed = new URLSearchParams(window.location.search).get('mode') === 'embed';
-        
-        if (isCaptcha) {
-            const shapes = [
-                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><rect x="15" y="15" width="70" height="70" rx="15" fill="#3b82f6"/></svg>',
-                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><circle cx="50" cy="50" r="35" fill="#ef4444"/></svg>',
-                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 61,35 85,35 66,50 73,75 50,60 27,75 34,50 15,35 39,35" fill="#eab308"/></svg>',
-                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 85,80 15,80" fill="#22c55e"/></svg>',
-                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-shape"><polygon points="50,15 85,50 50,85 15,50" fill="#f97316"/></svg>'
-            ];
-            const shuffledShapes = [...shapes].sort(() => Math.random() - 0.5).slice(0, 4);
-            state.dailyPuzzles = [{ q: shuffledShapes.join(' '), a: shuffledShapes }];
-        } else if (isCarousel) {
+        if (isCarousel) {
             const bonusPool6 = [
                  { q: "A highly intelligent person?", a: "GENIUS" },
                  { q: "Someone in charge or highly skilled?", a: "MASTER" }
             ];
             state.dailyPuzzles = [bonusPool6[Math.floor(Math.random() * bonusPool6.length)]];
-        } else if (isEmbed) {
-            const sixLetterPuzzle = todayPuzzles.find(p => p.a.length === 6) || todayPuzzles[1];
-            state.dailyPuzzles = sixLetterPuzzle ? [sixLetterPuzzle] : todayPuzzles;
         } else if (isStreamMode) {
             state.dailyPuzzles = [{ q: "", a: "123456" }];
         } else {
@@ -346,11 +329,7 @@ async function initGame() {
     if (isStreamMode) {
         document.body.classList.add('stream-mode');
     }
-    if (isCaptcha) {
-        document.body.classList.add('captcha-mode');
-        // Reset or set captcha start time
-        state.captchaStartTime = Date.now();
-    }
+
     await fetchPuzzleData();
     state.isBingeMode = false;
     renderPuzzleBoard();
@@ -444,22 +423,14 @@ function renderPuzzleBoard() {
     
     const currentData = state.dailyPuzzles[state.currentPuzzleIndex];
     const prefix = state.isBingeMode ? "Binge Puzzle" : "Daily Puzzle";
-    if (isCaptcha) {
-        state.question = `Smack That...in This Order<div class="captcha-shapes-container">${currentData.q}</div>`;
-    } else {
-        state.question = `${prefix} ${state.currentPuzzleIndex + 1}: ${currentData.q}`;
-    }
+    state.question = `${prefix} ${state.currentPuzzleIndex + 1}: ${currentData.q}`;
     state.answer = currentData.a;
 
     // Basic setup for exact letters
     state.letters = Array.from(state.answer);
     const shuffledLetters = [...state.letters].sort(() => Math.random() - 0.5);
     
-    if (isCaptcha) {
-        dom.trivia.innerHTML = state.question;
-    } else {
-        dom.trivia.textContent = state.question;
-    }
+    dom.trivia.textContent = state.question;
     
     dom.board.innerHTML = '';
     dom.hayBales.innerHTML = '';
@@ -489,11 +460,7 @@ function renderPuzzleBoard() {
         
         const letterSpan = document.createElement('span');
         letterSpan.className = 'letter';
-        if (isCaptcha) {
-            letterSpan.innerHTML = letter;
-        } else {
-            letterSpan.textContent = letter;
-        }
+        letterSpan.textContent = letter;
         
         donkey.appendChild(letterSpan);
         
@@ -508,12 +475,8 @@ function renderPuzzleBoard() {
         dom.hayBales.appendChild(bale);
     });
 
-    if (isCaptcha) {
-        setToPhase2(); // Skip phase 1 for frictionless captcha
-    } else {
-        // Reset phase 1
-        setToPhase1();
-    }
+    // Reset phase 1
+    setToPhase1();
 }
 
 function handleDonkeyClick(e, element, letter) {
@@ -560,11 +523,7 @@ function updateHayBales() {
     const bales = dom.hayBales.querySelectorAll('.hay-bale');
     bales.forEach((bale, i) => {
         if (state.selectedLetters[i]) {
-            if (isCaptcha) {
-                bale.innerHTML = state.selectedLetters[i];
-            } else {
-                bale.textContent = state.selectedLetters[i];
-            }
+            bale.textContent = state.selectedLetters[i];
         } else {
             bale.innerHTML = '';
         }
@@ -607,10 +566,7 @@ function setToPhase1() {
     stopAudio(audio.whoop);
     stopAudio(audio.applause);
     
-    const isEmbed = new URLSearchParams(window.location.search).get('mode') === 'embed';
-    if (!isEmbed) {
-        playAudio(audio.barnyard);
-    }
+    playAudio(audio.barnyard);
     
     dom.smackBtn.style.visibility = 'visible';
     dom.timerContainer.classList.remove('active');
@@ -630,9 +586,7 @@ function setToPhase2() {
     updateHayBales();
     
     stopAudio(audio.barnyard);
-    if (!isCaptcha) {
-        playAudio(audio.whoop);
-    }
+    playAudio(audio.whoop);
     
     dom.smackBtn.style.visibility = 'hidden';
     dom.timerContainer.classList.add('active');
@@ -666,17 +620,7 @@ function winGame() {
         origin: { y: 0.3 }
     });
 
-    if (isCaptcha) {
-        setTimeout(() => fadeOutAudio(audio.applause, 1000), 1000);
-        setTimeout(() => {
-            window.parent.postMessage({
-                type: 'oops_captcha_solved',
-                solveTimeMs: Date.now() - state.captchaStartTime,
-                telemetry: []
-            }, '*');
-        }, 1000);
-        return;
-    }
+
     
     dom.winTime.textContent = `Time: ${finalTime}`;
     document.getElementById('win-cypher').textContent = getDailyCypher(2); // SmackThatDonkey is game 2
@@ -686,23 +630,10 @@ function winGame() {
     
     if (analytics) {
         let eventParams = { level: state.currentPuzzleIndex + 1 };
-        if (urlParams.get('mode') === 'embed') eventParams.publisher_domain = publisherDomain;
         logEvent(analytics, 'level_complete', eventParams);
     }
 
-    const isEmbed = urlParams.get('mode') === 'embed';
-    const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
-    const regBtns = document.getElementById('regular-win-btns');
-    const carBtns = document.getElementById('carousel-btns');
-    const embedBtns = document.getElementById('embed-btns');
-    
-    if (isEmbed) {
-        if (regBtns) regBtns.style.display = 'none';
-        if (carBtns) carBtns.style.display = 'none';
-        if (embedBtns) embedBtns.style.display = 'flex';
-        document.getElementById('win-title').innerText = "Level 1 Complete!";
-        document.getElementById('win-cypher').style.display = 'none';
-    } else if (isCarousel) {
+    if (isCarousel) {
         if (regBtns) regBtns.style.display = 'none';
         if (embedBtns) embedBtns.style.display = 'none';
         if (carBtns) carBtns.style.display = 'flex';
@@ -723,7 +654,6 @@ function winGame() {
             }).catch(console.warn);
     } else {
         if (carBtns) carBtns.style.display = 'none';
-        if (embedBtns) embedBtns.style.display = 'none';
         if (regBtns) regBtns.style.display = 'flex';
         
         if (isFinalPuzzle && bingeCount === 0) {

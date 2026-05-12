@@ -300,7 +300,7 @@ async function fetchPuzzleData() {
         dailyIndex = Math.floor(rand() * puzzlesDB.length);
         const todayPuzzles = puzzlesDB[dailyIndex];
 
-        const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
+        const isCarousel = false;
         if (isCarousel) {
             const bonusPool6 = [
                  { q: "A highly intelligent person?", a: "GENIUS" },
@@ -794,7 +794,7 @@ document.getElementById('btn-embed-hook')?.addEventListener('click', () => {
 });
 
 // Carousel Logic
-const isCarousel = urlParams.get('carousel') === 'true';
+const isCarousel = false;
 if (isCarousel && typeof analytics !== 'undefined' && analytics) { logEvent(analytics, 'carousel_visit', { game_id: 'ST' }); }
 const playedGamesStr = urlParams.get('played') || '';
 

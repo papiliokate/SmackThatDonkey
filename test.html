@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smack That Donkey - Fun Reaction Arcade Game | Oops-Games</title>
-    <script>
-      const params = new URLSearchParams(window.location.search);
-      if (params.get('mode') === 'captcha' || params.get('mode') === 'embed') {
-          window.location.replace('./conversion.html' + window.location.search);
-      }
-    </script>
     <meta name="description" content="Reflexes are everything in Smack That Donkey! Play this fun and frantic reaction game for free in your browser." />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Nunito:wght@700;900&display=swap');
@@ -23,6 +17,7 @@
       }
 
       * { box-sizing: border-box; }
+
       body {
         margin: 0;
         font-family: 'Outfit', sans-serif;
@@ -43,7 +38,7 @@
         height: 850px;
         flex-shrink: 0;
         transform-origin: center center;
-        background: url('/bg.png') no-repeat center bottom;
+        background: url('/smack-that-donkey/bg.png') no-repeat center bottom;
         background-size: cover;
         color: var(--text-dark);
         display: flex;
@@ -58,13 +53,14 @@
           zoom: min(calc(100vw / 450), calc(100vh / 850));
         }
       }
-      
+
       /* Custom animated cursor */
+
       #custom-cursor {
         position: fixed;
         width: 80px;
         height: 80px;
-        background: url('/slap_hand.png') no-repeat center center;
+        background: url('/smack-that-donkey/slap_hand.png') no-repeat center center;
         background-size: contain;
         pointer-events: none;
         z-index: 9999;
@@ -72,8 +68,9 @@
         transition: transform 0.05s ease-out;
         filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
       }
-      
+
       /* Use fallback CSS if hand image fails or until generated */
+
       #custom-cursor.fallback {
         background: none;
         font-size: 50px;
@@ -81,11 +78,13 @@
         justify-content: center;
         align-items: center;
       }
+
       #custom-cursor.fallback::before { content: "🖐️"; }
 
       body.slapping #custom-cursor {
         transform: translate(-50%, -50%) rotate(25deg) scale(0.85); /* Slapping motion */
       }
+
       body.slapping #custom-cursor.fallback::before { content: "👊"; }
 
       header {
@@ -102,6 +101,7 @@
       }
 
       /* Header Actions */
+
       .header-actions {
         display: flex;
         justify-content: center;
@@ -109,7 +109,7 @@
         margin-top: 10px;
         margin-bottom: 15px;
       }
-      
+
       .btn-header {
         background: transparent;
         border: 2px solid var(--text-light);
@@ -126,13 +126,15 @@
         font-family: 'Outfit', sans-serif;
         font-weight: 600;
       }
+
       .btn-header:hover {
         background: rgba(255,255,255,0.2);
       }
 
       h1 { margin: 0; font-family: 'Nunito', sans-serif; font-size: 2rem; font-weight: 900; text-transform: uppercase; letter-spacing: 2px;}
+
       #trivia-question { font-size: 1.2rem; font-weight: 600; margin-top: 10px; }
-      
+
       #timer-container {
         position: absolute;
         bottom: -20px;
@@ -149,6 +151,7 @@
         pointer-events: none;
         transition: opacity 0.2s ease;
       }
+
       #timer-container.active {
         opacity: 1;
       }
@@ -174,7 +177,7 @@
         cursor: none;
         margin: -5px;
         transition: transform 0.2s ease;
-        background-image: url('/donkey_new.png');
+        background-image: url('/smack-that-donkey/donkey_new.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom center;
@@ -183,7 +186,7 @@
         align-items: center;
         filter: drop-shadow(0 15px 15px rgba(0,0,0,0.6));
       }
-      
+
       .donkey:hover {
         transform: scale(1.05);
       }
@@ -203,23 +206,27 @@
       }
 
       /* Discovery phase animation */
+
       .donkey.revealed .letter {
         opacity: 1;
         transform: translateY(-50px) scale(1.5);
       }
-      
+
       /* Phase 2 selected animation */
+
       .donkey.selected {
         filter: drop-shadow(0 5px 5px rgba(0,0,0,0.4)) grayscale(50%) brightness(0.6);
         pointer-events: none;
         transform: scale(0.9);
       }
+
       .donkey.selected .letter {
         opacity: 1;
         transform: translateY(-50px) scale(1.5);
       }
 
       /* The visual "smack" physical reaction */
+
       @keyframes smackReaction {
         0% { transform: scale(1) rotate(0deg); filter: brightness(1); }
         20% { transform: scale(0.6) rotate(-25deg); filter: brightness(0.7) sepia(1) hue-rotate(-50deg) saturate(4); }
@@ -228,6 +235,7 @@
         80% { transform: scale(1.1) rotate(5deg); }
         100% { transform: scale(1) rotate(0deg); }
       }
+
       .donkey.smacked {
         animation: smackReaction 0.15s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
       }
@@ -258,7 +266,7 @@
         position: relative;
         z-index: 10;
       }
-      
+
       .btn:active {
         transform: translateY(6px);
         box-shadow: 0 0px 0 #d97d02, 0 4px 5px rgba(0,0,0,0.2);
@@ -279,7 +287,7 @@
       .hay-bale {
         width: var(--bale-size, 70px);
         height: var(--bale-size, 70px);
-        background: url('/hay_bale.png') no-repeat center center;
+        background: url('/smack-that-donkey/hay_bale.png') no-repeat center center;
         background-size: contain;
         display: flex;
         justify-content: center;
@@ -291,7 +299,7 @@
         text-shadow: 0 2px 4px rgba(0,0,0,0.8);
         filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5));
       }
-      
+
       .hay-bale.fallback {
         background: linear-gradient(to bottom, #ECD474, #CBA329);
         border: 3px solid #8e6c0c;
@@ -310,8 +318,11 @@
         justify-content: center;
         align-items: center;
       }
+
       .hidden { display: none !important; }
+
       .modal.active { display: flex; }
+
       .modal-content {
         background: rgba(255, 255, 255, 0.9);
         padding: 40px;
@@ -322,21 +333,25 @@
         max-width: 90%;
         width: 400px;
       }
+
       .modal-content h2 {
         font-family: 'Nunito', sans-serif;
         font-size: 2.5rem;
         margin-top: 0;
         color: var(--barn-color);
       }
+
       .modal-content p {
         font-size: 1.2rem;
         margin-bottom: 30px;
       }
+
       .modal-btns {
         display: flex;
         flex-direction: column;
         gap: 15px;
       }
+
       .modal-btn {
         padding: 12px;
         border: none;
@@ -350,11 +365,17 @@
         gap: 10px;
         font-family: 'Outfit', sans-serif;
       }
+
       .btn-next { background: #FF5722; color: white; font-weight: 800; }
+
       .btn-install { background: #4CAF50; color: white; }
+
       .btn-share { background: #2196F3; color: white; }
+
       .btn-binge { background: #9C27B0; color: white; }
+
       .btn-hub { background: #333; color: white; }
+
       .btn-play-again { background: var(--accent); color: var(--text-dark); margin-top: 15px; }
 
       .message-toast {
@@ -371,11 +392,13 @@
         z-index: 50;
         transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       }
+
       .message-toast.show {
         transform: translate(-50%, -50%) scale(1);
       }
 
       /* Stream Mode Overrides */
+
       body.stream-mode .header-actions,
       body.stream-mode #timer-container,
       body.stream-mode #controls,
@@ -383,10 +406,11 @@
       body.stream-mode #hay-bales {
         display: none !important;
       }
+
       body.stream-mode header {
         display: none !important;
       }
-      
+
       #stream-header {
         display: none;
         text-align: center;
@@ -396,17 +420,17 @@
         position: relative;
         text-shadow: 0 4px 10px rgba(0,0,0,0.8);
       }
-      
+
       body.stream-mode #stream-header {
         display: block;
       }
-      
+
       #stream-header h1 {
         font-size: 2.5rem;
         margin-bottom: 10px;
         color: #F8F9FA;
       }
-      
+
       #stream-header h2 {
         font-family: 'Outfit', sans-serif;
         font-size: 1.8rem;
@@ -423,9 +447,71 @@
         100% { transform: scale(1); }
       }
 
+      /* CAPTCHA Mode Overrides */
 
+      body.captcha-mode .header-actions,
+      body.captcha-mode #timer-container,
+      body.captcha-mode #controls,
+      body.captcha-mode #hay-bales,
+      body.captcha-mode header h1 {
+        display: none !important;
+      }
+
+      body.captcha-mode header {
+        padding-top: 30px;
+      }
+
+      body.captcha-mode #trivia-question {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .captcha-shapes-container {
+        background: rgba(0, 0, 0, 0.4);
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        border-radius: 16px;
+        padding: 10px 20px;
+        margin: 15px auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 2.2rem;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      }
+
+      .svg-shape {
+        width: 1.2em;
+        height: 1.2em;
+        display: block;
+        filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
+      }
+
+      body.captcha-mode .donkey .letter {
+        opacity: 1 !important;
+        top: 51% !important;
+        left: 68% !important;
+        transform: translate(-50%, -50%) !important;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      body.captcha-mode .donkey.selected {
+        filter: drop-shadow(0 5px 5px rgba(0,0,0,0.4)) grayscale(50%) brightness(0.6);
+        pointer-events: none;
+        transform: scale(0.9);
+      }
 
     </style>
+    <script type="module" crossorigin src="/smack-that-donkey/assets/index-D7r6s8qq.js"></script>
   </head>
   <body>
     <div id="custom-cursor" class="fallback"></div>
@@ -442,7 +528,7 @@
         <button id="btn-top-reset" class="btn-header" title="Restart Game">↻ Reset</button>
         <button id="btn-tutorial" class="btn-header" title="How to Play">❓ Tutorial</button>
         <button id="btn-binge-play" class="btn-header hidden">🎟️ <span id="binge-count">0</span> Puzzles</button>
-        <button id="header-carousel-next" class="btn-header" style="pointer-events: auto !important; display: none; background: linear-gradient(135deg, #00f0ff, #0055ff); color: white; border: none; cursor: pointer; font-weight: bold;">➡️ Next Game</button>
+        <button id="header-carousel-next" class="btn-header" style="display: none; background: linear-gradient(135deg, #00f0ff, #0055ff); color: white; border: none; cursor: pointer; font-weight: bold;">➡️ Next Game</button>
       </div>
       <div id="trivia-question">Loading Question...</div>
       <div id="timer-container">00:00</div>
@@ -490,7 +576,10 @@
           <button class="modal-btn btn-share" id="carousel-share" style="display:none; background: #38bdf8; color: white;">📤 Share for another ride</button>
           <button class="modal-btn btn-binge" id="carousel-binge" style="background: #e91e63; color: white;">🎟️ Binge this game ($0.99)</button>
         </div>
-
+        <div class="modal-btns" id="embed-btns" style="display:none;">
+          <p id="embed-hook-text" style="font-size: 1.2rem; margin-bottom: 15px; color: #333; font-weight: 600;">You survived Level 1! Only 4% of players beat Level 2.</p>
+          <button class="modal-btn btn-binge" id="btn-embed-hook" style="background: #e91e63; color: white; width: 100%; font-size: 1.3rem; padding: 15px;">🚀 Play Full Game on Oops-Games</button>
+        </div>
         <p id="win-cypher" style="font-size: 1.5rem; font-family: monospace; letter-spacing: 4px; color: #333; margin: 15px auto; font-weight: bold; background: #eee; padding: 10px; border-radius: 10px; border: 2px dashed #ccc; width: fit-content;"></p>
       </div>
     </div>
@@ -507,10 +596,8 @@
         </div>
       </div>
     </div>
-
-    <script type="module" src="/main.js"></script>
+
     </div>
-    <!-- <script src="/streak_manager.js"></script> -->
-  <!-- <script src="/carousel_manager.js"></script> -->
+    <script src="/streak_manager.js"></script>
 </body>
 </html>

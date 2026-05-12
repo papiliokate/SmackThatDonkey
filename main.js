@@ -1,9 +1,10 @@
 import confetti from 'canvas-confetti';
-import { initializeApp, getAnalytics, logEvent } from "./analytics_wrapper.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
 
 const urlParams = new URLSearchParams(window.location.search);
 const isStreamMode = urlParams.get('stream') === 'true';
-const isCaptcha = urlParams.get('mode') === 'captcha' || window.__IS_CAPTCHA__ === true;
+const isCaptcha = urlParams.get('mode') === 'captcha';
 const autoplayMode = urlParams.get('autoplay');
 
 if (urlParams.get('autoplay') === 'split') {
@@ -52,24 +53,29 @@ if (document.referrer) {
 }
 
 let analytics;
-if (!isStreamMode && !isCaptcha) {
-    analytics = getAnalytics();
-    logEvent(analytics, 'custom_session_start');
+if (!isStreamMode && import.meta.env && import.meta.env.VITE_FIREBASE_API_KEY) {
+  try {
+    const firebaseConfig = {
+      apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+      authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+      projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+      storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+      messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+      appId: import.meta.env.VITE_FIREBASE_APP_ID,
+      measurementId: "G-BJLK9339LN",
+    };
+    const app = initializeApp(firebaseConfig);
+    analytics = getAnalytics(app);
+    logEvent(analytics, 'session_start');
     if (urlParams.get('mode') === 'embed') {
-        logEvent(analytics, 'embed_visit');
+        logEvent(analytics, 'embed_visit', { publisher_domain: publisherDomain });
     }
+  } catch (e) {
+    console.warn("Analytics error:", e);
+  }
 }
 
 let bingeCount = parseInt(localStorage.getItem("bingeTokens") || "0");
-
-let captchaPort = null;
-window.addEventListener('message', (event) => {
-    if (event.data === 'init_captcha_channel' && event.ports && event.ports.length > 0) {
-        captchaPort = event.ports[0];
-        // Send ack back through the port
-        captchaPort.postMessage('ack');
-    }
-});
 
 const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
 if (isStandalone && !localStorage.getItem('pwaBountyClaimed')) {
@@ -129,8 +135,8 @@ function getDailyCypher(gameIndex) {
 let parentCtx = null;
 let parentDest = null;
 if (autoplayMode) {
-    try { parentCtx = window.parent.audioCtx; } catch(e) { console.warn("Cross origin audio check failed"); }
-    try { parentDest = window.parent.mediaDest; } catch(e) {}
+    parentCtx = window.parent.audioCtx;
+    parentDest = window.parent.mediaDest;
 }
 parentCtx = parentCtx || new AudioContext();
 parentDest = parentDest || parentCtx.createMediaStreamDestination();
@@ -297,7 +303,7 @@ async function fetchPuzzleData() {
         const todayPuzzles = puzzlesDB[dailyIndex];
 
         const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
-        const isEmbed = false;
+        const isEmbed = new URLSearchParams(window.location.search).get('mode') === 'embed';
         
         if (isCaptcha) {
             const shapes = [
@@ -601,7 +607,7 @@ function setToPhase1() {
     stopAudio(audio.whoop);
     stopAudio(audio.applause);
     
-    const isEmbed = false;
+    const isEmbed = new URLSearchParams(window.location.search).get('mode') === 'embed';
     if (!isEmbed) {
         playAudio(audio.barnyard);
     }
@@ -663,17 +669,11 @@ function winGame() {
     if (isCaptcha) {
         setTimeout(() => fadeOutAudio(audio.applause, 1000), 1000);
         setTimeout(() => {
-            const solveTime = Date.now() - state.captchaStartTime;
-            
-            try {
-                // Channel 3: Frame-Counting Hack
-                // Native DOM length property bypasses all Devvit sandbox message-stripping
-                const signalFrame = document.createElement('iframe');
-                signalFrame.style.display = 'none';
-                document.body.appendChild(signalFrame);
-            } catch (err) {
-                console.error("Failed to execute handleCaptchaSolved", err);
-            }
+            window.parent.postMessage({
+                type: 'oops_captcha_solved',
+                solveTimeMs: Date.now() - state.captchaStartTime,
+                telemetry: []
+            }, '*');
         }, 1000);
         return;
     }
@@ -690,7 +690,7 @@ function winGame() {
         logEvent(analytics, 'level_complete', eventParams);
     }
 
-    const isEmbed = false;
+    const isEmbed = urlParams.get('mode') === 'embed';
     const isCarousel = new URLSearchParams(window.location.search).get('carousel') === 'true';
     const regBtns = document.getElementById('regular-win-btns');
     const carBtns = document.getElementById('carousel-btns');
@@ -713,7 +713,14 @@ function winGame() {
         const playNextBtn = document.getElementById('carousel-play-next');
         const shareBtn = document.getElementById('carousel-share');
         
-        
+        fetch('https://oops-games.com/carousel_config.json')
+            .then(res => res.json())
+            .then(configList => {
+                if (playedGames.length >= configList.length) {
+                    if (playNextBtn) playNextBtn.style.display = 'none';
+                    if (shareBtn) shareBtn.style.display = 'flex';
+                }
+            }).catch(console.warn);
     } else {
         if (carBtns) carBtns.style.display = 'none';
         if (embedBtns) embedBtns.style.display = 'none';
@@ -892,16 +899,8 @@ const advanceCarousel = async (isAnotherRide = false) => {
     }
     
     try {
-        const configList = [
-                { "id": "GR", "url": "/go-rabbit" },
-                { "id": "SS", "url": "/she-sells-sea-shells" },
-                { "id": "ST", "url": "/smack-that-donkey" },
-                { "id": "OG", "url": "/o-gox" },
-                { "id": "BB", "url": "/budbud" },
-                { "id": "LW", "url": "/lightning-words" },
-                { "id": "NIM", "url": "/nomisekili" },
-                { "id": "SDM", "url": "/sunny-day-maze" }
-            ];
+        const res = await fetch('https://oops-games.com/carousel_config.json');
+        const configList = await res.json();
         const unplayed = configList.filter(g => !currentPlayed.includes(g.id));
         if (unplayed.length > 0) {
             const nextGame = unplayed[Math.floor(Math.random() * unplayed.length)];
@@ -914,8 +913,8 @@ const advanceCarousel = async (isAnotherRide = false) => {
     }
 };
 
-
-
+document.getElementById("carousel-play-next")?.addEventListener("click", () => advanceCarousel(false));
+document.getElementById("header-carousel-next")?.addEventListener("click", () => advanceCarousel(false));
 
 document.getElementById("carousel-binge")?.addEventListener("click", () => {
     if (analytics) logEvent(analytics, 'binge_presale_click');

@@ -898,7 +898,7 @@ dom.btnInstall.addEventListener('click', () => {
     }
 });
 
-document.getElementById('btn-close-ios-modal').addEventListener('click', () => {
+document.getElementById('btn-close-ios-modal')?.addEventListener('click', () => {
     document.getElementById('ios-install-modal').classList.remove('active');
 });
 
